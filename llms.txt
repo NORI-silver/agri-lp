@@ -1,21 +1,23 @@
-# 農機修理さがし
+# 機械修理さがし
 
-> 農機（トラクター・コンバイン・田植機・草刈機など）が壊れたときに、どこに頼めるか、来てもらえるか、そのメーカー・機種に対応できるかを探せるようにするサイトです。修理の頼み方・費用の目安・農繁期の備えをまとめています。地域ごとの事業者の一覧は千葉県から準備中です。
+> 購入店不明・他店やネット購入・持込困難な小型機械・作業機・農業機械の修理相談ガイド。草刈機・刈払機から、条件の確認できる修理先への接続を目指しています。
 
-- 載せているのは、公式サイト・公式の料金表・事業者への確認で分かったことだけです。
+- 現在利用できるのは相談準備のガイドとメーカー公式案内へのリンクです。条件別業者検索・修理受付・仲介・空き状況照会は準備中です。
+- 千葉県の草刈機・刈払機から供給条件の確認を進める方針です。未確認の受付可否は保証しません。
+- 農業機械は継続対象です。農機の料金例を他カテゴリや地域の相場に流用しません。
 
-## 機種
-- [トラクターの修理の頼み方](https://agri.shiokonbu.com/machine/tractor/)
-- [コンバインの修理の頼み方](https://agri.shiokonbu.com/machine/combine/)
-- [田植機の修理の頼み方](https://agri.shiokonbu.com/machine/rice-transplanter/)
-- [草刈機・刈払機の修理の頼み方](https://agri.shiokonbu.com/machine/mower/)
+## 機械
+- [草刈機・刈払機の修理相談](https://agri.shiokonbu.com/machine/mower/)
+- [トラクターの修理相談](https://agri.shiokonbu.com/machine/tractor/)
+- [コンバインの修理相談](https://agri.shiokonbu.com/machine/combine/)
+- [田植機の修理相談](https://agri.shiokonbu.com/machine/rice-transplanter/)
 
-## 困りごと
-- [修理を頼む前に伝えること](https://agri.shiokonbu.com/guide/how-to-ask/)
-- [修理費用と出張費の目安](https://agri.shiokonbu.com/guide/fee/)
-- [農繁期に待たされないために](https://agri.shiokonbu.com/guide/busy-season/)
-- [ほかの店で買った農機の修理](https://agri.shiokonbu.com/guide/other-store/)
-- [古い農機の修理](https://agri.shiokonbu.com/guide/old-machine/)
-- [メーカー別の頼み先](https://agri.shiokonbu.com/guide/maker/)
+## 相談ガイド
+- [購入店不明・他店・ネット購入](https://agri.shiokonbu.com/guide/other-store/)
+- [修理相談の準備・持込と出張](https://agri.shiokonbu.com/guide/how-to-ask/)
+- [修理費用・見積もり](https://agri.shiokonbu.com/guide/fee/)
+- [古い機械・中古品](https://agri.shiokonbu.com/guide/old-machine/)
+- [メーカーから相談先を探す](https://agri.shiokonbu.com/guide/maker/)
+- [農繁期前の点検・修理相談](https://agri.shiokonbu.com/guide/busy-season/)
 
-- [このサイトについて](https://agri.shiokonbu.com/about/)
+- [掲載方針・サービス範囲](https://agri.shiokonbu.com/about/)
