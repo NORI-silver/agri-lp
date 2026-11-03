@@ -27,11 +27,11 @@
 
 ## 計測
 
-- `ga.js` に GA4 の測定IDを入れると、本番だけで計測が始まる。電話（tel:）・LINE・`data-inquiry` 付きリンクのクリックをイベントで数える（KPIは「問い合わせ行動」。PVではない）。
+- `ga.js` の GA4（G-QXP10ZVT9S、SHIOKONBU アカウントの agri.shiokonbu.com プロパティ）で、本番だけ計測する。電話（tel:）・LINE・`data-inquiry` 付きリンクのクリックをイベントで数える（KPIは「問い合わせ行動」。PVではない）。
 
 ## Nori さんの操作が必要なこと（2026-11-03時点）
 
 1. DNS：`agri.shiokonbu.com` の CNAME を `nori-silver.github.io` に向ける。
 2. GitHub：Settings → Pages → Source を「GitHub Actions」にし、Custom domain に `agri.shiokonbu.com`、Enforce HTTPS をオン。
 3. Search Console に `agri.shiokonbu.com` を追加し、sitemap.xml を送る。
-4. GA4 のプロパティを作って測定IDを `ga.js` に入れる（AIに頼めば入れます）。
+4. ~~GA4~~ 済み（2026-11-03、プロパティ agri.shiokonbu.com・測定ID G-QXP10ZVT9S）。

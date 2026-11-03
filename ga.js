@@ -1,7 +1,7 @@
 // アクセス解析（GA4）。ID が空のときと、本番の agri.shiokonbu.com 以外では何もしない。
 // 入力内容などの個人情報は送らない。電話・LINE・問い合わせのリンクが押された数だけを数える（KPI：docs/strategy.md）。
 (function(){
-  var ID = ""; // GA4 の測定ID（G-XXXX）を Nori さんが作ったらここに入れる
+  var ID = "G-QXP10ZVT9S"; // GA4 プロパティ agri.shiokonbu.com（ストリーム agri、2026-11-03）
   if (!ID || location.hostname !== "agri.shiokonbu.com") return;
   window.dataLayer = window.dataLayer || [];
   window.gtag = function(){ dataLayer.push(arguments); };
