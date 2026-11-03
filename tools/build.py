@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""農機修理さがし（agri.shiokonbu.com）の静的ページを作る（外部ライブラリ不要）。
+"""機械修理さがし（agri.shiokonbu.com）の静的ページを作る（外部ライブラリ不要）。
 使い方: python3 tools/build.py .
 中身は tools/pages.py。生成した HTML・sitemap.xml・llms.txt もコミットする。
 """
@@ -10,10 +10,10 @@ import pages as P  # noqa: E402
 
 ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
 SITE = "https://agri.shiokonbu.com"
-NAME = "農機修理さがし"  # サイト上に「shiokonbu」は出さない（Nori 2026-11-03）
+NAME = "機械修理さがし"  # サイト上に「shiokonbu」は出さない（Nori 2026-11-03）
 TODAY = "2026-11-03"
 
-LOGO = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 17a3 3 0 1 0 0 .01zM18 15a4 4 0 1 0 0 .01zM4 13V8h6l2 4h4V7h2v5.2A5 5 0 0 0 13.6 15H8.9A3.5 3.5 0 0 0 4 13z"/></svg>'
+LOGO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5a5 5 0 0 0-6.8 6.8L3 18a2.1 2.1 0 0 0 3 3l4.7-4.7a5 5 0 0 0 6.8-6.8L14 13l-3-3z"/></svg>'
 
 
 def label(path):
@@ -38,6 +38,7 @@ def fill(text, used):
     s = P.DB_STATS
     text = text.replace("{machine_cards}", cards(P.MACHINES, "machine"))
     text = text.replace("{guide_cards}", cards(P.GUIDES, "guide"))
+    text = text.replace("{agri_cards}", cards([(s, n) for s, n in P.MACHINES if s != "mower"], "machine"))
     text = text.format_map({"total": s["total"], "onsite_stated": s["onsite_stated"],
                             "fee_public": s["fee_public"], "as_of": s["as_of"]}) if "{total}" in text else text
     for k, v in (("db_total", s["total"]), ("db_fee_public", s["fee_public"]), ("db_as_of", s["as_of"])):
@@ -56,7 +57,9 @@ def page(path, d):
     used = []
     body = []
     for h2, content in d["sections"]:
-        body.append(f'<section><h2>{html.escape(h2)}</h2>{fill(content, used)}</section>')
+        anchor = {"どんな機械でお困りですか": "machine", "修理を頼む前に読むガイド": "guide", "持ち込みできないときは": "transport"}.get(h2)
+        attr = f' id="{anchor}"' if anchor else ""
+        body.append(f'<section{attr}><h2>{html.escape(h2)}</h2>{fill(content, used)}</section>')
     ld = []
     crumbs = [{"@type": "ListItem", "position": 1, "name": NAME, "item": SITE + "/"}]
     if path:
@@ -71,8 +74,8 @@ def page(path, d):
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in d["faq"]]})
     if used:
         body.append('<section class="sources"><h2>出典</h2><ol>' + "".join(
-            f'<li id="src-{k}"><a href="{P.SOURCES[k][1]}" rel="nofollow noopener" target="_blank">{html.escape(P.SOURCES[k][0])}</a></li>'
-            for k in used) + f"</ol><p>{TODAY}に確認。</p></section>")
+            f'<li id="src-{k}"><a href="{P.SOURCES[k][1]}" rel="noopener" target="_blank">{html.escape(P.SOURCES[k][0])}</a>（確認日：{P.SOURCES[k][2]}）</li>'
+            for k in used) + "</ol></section>")
     if path:
         rel = [(f"/machine/{s}/", n) for s, n in P.MACHINES] + [(f"/guide/{s}/", n) for s, n in P.GUIDES]
         rel = [(h, n) for h, n in rel if h != "/" + path]
@@ -80,6 +83,10 @@ def page(path, d):
             f'<li><a href="{h}">{html.escape(n)}</a></li>' for h, n in rel) + "</ul></nav>")
     crumb_html = "" if not path else f'<nav class="crumb" aria-label="パンくず"><a href="/">トップ</a> › {html.escape(label(path))}</nav>'
     t, desc = html.escape(d["title"]), html.escape(d["desc"])
+    hero = ' class="hero"' if d.get("hero") else ' class="page-intro"'
+    actions = '<div class="actions"><a class="button" href="/machine/mower/">草刈機の修理相談</a><a class="button secondary" href="/guide/other-store/">購入店に頼めないとき</a></div>' if d.get("hero") else ''
+    next_step = '' if not path else '<aside class="next-step"><div><span class="eyebrow">次の一歩</span><h2>機械と条件をまとめて、相談先へ。</h2><p>購入経路と持込・出張の希望も伝え、受付できるかを確認しましょう。</p></div><div class="actions"><a class="button" href="/guide/maker/">メーカーの公式案内へ</a><a class="button secondary" href="/guide/how-to-ask/">相談の準備を見る</a></div></aside>'
+
     return f"""<!doctype html>
 <html lang="ja">
 <head>
@@ -105,23 +112,34 @@ def page(path, d):
 </script>
 </head>
 <body>
+<a class="skip" href="#content">本文へ移動</a>
 <header class="top"><div class="wrap">
 <a class="logo" href="/"><i>{LOGO}</i>{NAME}</a>
-<nav><a href="/#machine">機種</a><a href="/#guide">困りごと</a><a href="/guide/fee/">費用</a><a href="/about/">このサイトについて</a></nav>
+<nav aria-label="メインナビゲーション"><a href="/#machine">機械から探す</a><a href="/guide/other-store/">購入店に頼めない</a><a href="/guide/how-to-ask/#transport">持込・出張</a><a href="/guide/fee/">費用</a><a href="/about/">掲載方針</a></nav>
 </div></header>
-<main class="wrap">
+<main class="wrap" id="content">
 {crumb_html}
-<h1>{html.escape(d['h1'])}</h1>
+<div{hero}>
+<p class="eyebrow">小型機械・作業機・農業機械の修理相談ガイド</p>
+<h1>{html.escape(d['h1']).replace(chr(10), '<br>')}</h1>
 <p class="lead">{html.escape(d['lead'])}</p>
+{actions}
+</div>
 {''.join(body)}
+{next_step}
 </main>
-<footer><div class="wrap"><p><a href="/">{NAME}</a>｜農機が壊れたときの頼み先さがし</p><p><a href="/about/">このサイトについて</a></p></div></footer>
+<footer><div class="wrap"><p><a href="/">{NAME}</a>｜購入店に頼めない機械の修理相談に</p><p>草刈機・作業機から農業機械まで。条件別の修理先一覧・修理受付は準備中です。</p><p><a href="/about/">掲載方針・現在のサービス範囲</a> ／ <a href="/guide/maker/">メーカーの公式案内</a></p></div></footer>
 </body>
 </html>
 """
 
 
 def main():
+    not_found = f"""<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>ページが見つかりません｜{NAME}</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"></head>
+<body><main class="wrap page-intro"><p class="eyebrow">{NAME}</p><h1>ページが見つかりません</h1><p>アドレスが変わったか、公開されていないページです。</p><div class="actions"><a class="button" href="/">トップへ戻る</a><a class="button secondary" href="/guide/how-to-ask/">修理相談の準備へ</a></div></main></body></html>
+"""
+    open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(not_found)
     paths = list(P.PAGES)
     for path in paths:
         out = os.path.join(ROOT, path, "index.html")
@@ -137,10 +155,12 @@ def main():
             f.write(f"  <url><loc>{SITE}/{path}</loc><lastmod>{TODAY}</lastmod></url>\n")
         f.write("</urlset>\n")
     lines = [f"# {NAME}", "",
-             "> 農機（トラクター・コンバイン・田植機・草刈機など）が壊れたときに、どこに頼めるか、来てもらえるか、そのメーカー・機種に対応できるかを探せるようにするサイトです。修理の頼み方・費用の目安・農繁期の備えをまとめています。地域ごとの事業者の一覧は千葉県から準備中です。",
-             "", "- 載せているのは、公式サイト・公式の料金表・事業者への確認で分かったことだけです。", "",
-             "## 機種"] + [f"- [{n}の修理の頼み方]({SITE}/machine/{s}/)" for s, n in P.MACHINES] + ["", "## 困りごと"] + \
-            [f"- [{n}]({SITE}/guide/{s}/)" for s, n in P.GUIDES] + ["", f"- [このサイトについて]({SITE}/about/)", ""]
+             "> 購入店不明・他店やネット購入・持込困難な小型機械・作業機・農業機械の修理相談ガイド。草刈機・刈払機から、条件の確認できる修理先への接続を目指しています。",
+             "", "- 現在利用できるのは相談準備のガイドとメーカー公式案内へのリンクです。条件別業者検索・修理受付・仲介・空き状況照会は準備中です。",
+             "- 千葉県の草刈機・刈払機から供給条件の確認を進める方針です。未確認の受付可否は保証しません。",
+             "- 農業機械は継続対象です。農機の料金例を他カテゴリや地域の相場に流用しません。",
+             "", "## 機械"] + [f"- [{n}の修理相談]({SITE}/machine/{s}/)" for s, n in P.MACHINES] + ["", "## 相談ガイド"] + \
+            [f"- [{n}]({SITE}/guide/{s}/)" for s, n in P.GUIDES] + ["", f"- [掲載方針・サービス範囲]({SITE}/about/)", ""]
     open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write("\n".join(lines))
 
 
