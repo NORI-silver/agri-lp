@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SHIOKONBU Agri の静的ページを作る（外部ライブラリ不要）。
+"""農機修理さがし（agri.shiokonbu.com）の静的ページを作る（外部ライブラリ不要）。
 使い方: python3 tools/build.py .
 中身は tools/pages.py。生成した HTML・sitemap.xml・llms.txt もコミットする。
 """
@@ -10,7 +10,7 @@ import pages as P  # noqa: E402
 
 ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
 SITE = "https://agri.shiokonbu.com"
-NAME = "SHIOKONBU Agri"
+NAME = "農機修理さがし"  # サイト上に「shiokonbu」は出さない（Nori 2026-11-03）
 TODAY = "2026-11-03"
 
 LOGO = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 17a3 3 0 1 0 0 .01zM18 15a4 4 0 1 0 0 .01zM4 13V8h6l2 4h4V7h2v5.2A5 5 0 0 0 13.6 15H8.9A3.5 3.5 0 0 0 4 13z"/></svg>'
@@ -115,7 +115,7 @@ def page(path, d):
 <p class="lead">{html.escape(d['lead'])}</p>
 {''.join(body)}
 </main>
-<footer><div class="wrap"><p><a href="/">{NAME}</a>｜農機具の修理さがし</p><p><a href="/about/">このサイトについて</a></p></div></footer>
+<footer><div class="wrap"><p><a href="/">{NAME}</a>｜農機が壊れたときの頼み先さがし</p><p><a href="/about/">このサイトについて</a></p></div></footer>
 </body>
 </html>
 """

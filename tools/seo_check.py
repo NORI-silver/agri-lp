@@ -43,6 +43,8 @@ def main():
         if p.h1 != 1: ng.append(f"{u}: h1 が {p.h1}個")
         if p.h2 < 2: ng.append(f"{u}: h2 が少ない")
         text = "".join(p.text)
+        raw = open(f, encoding="utf-8").read().replace("agri.shiokonbu.com", "")
+        if re.search(r"shiokonbu", raw, re.I): ng.append(f"{u}: サイト上に「shiokonbu」の名前がある（ドメイン以外で使わない）")
         for w in BAN:
             if w in text: ng.append(f"{u}: 根拠のない言い方「{w}」")
         for l in p.links:
