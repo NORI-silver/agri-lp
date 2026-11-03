@@ -29,7 +29,7 @@
 
 ## 計測
 
-- `ga.js` の GA4（G-QXP10ZVT9S、SHIOKONBU アカウントの agri.shiokonbu.com プロパティ）で、本番だけ計測する。電話（tel:）・LINE・`data-inquiry` 付きリンクのクリックをイベントで数える（KPIは「問い合わせ行動」。PVではない）。
+- `ga.js` の GA4 で、本番だけ計測する。送り先は2つ：shiokonbu.com 総合（G-ZYX17VBTWB、プロパティ 292677591。全サブドメイン共通、消さない）と agri 単体（G-QXP10ZVT9S、SHIOKONBU アカウントの agri.shiokonbu.com プロパティ）。電話（tel:）・LINE・`data-inquiry` 付きリンクのクリックをイベントで数える（KPIは「問い合わせ行動」。PVではない）。
 
 ## Nori さんの操作が必要なこと（2026-11-03時点）
 
