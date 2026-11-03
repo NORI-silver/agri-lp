@@ -1,0 +1,21 @@
+# SHIOKONBU Agri
+
+> 農機（トラクター・コンバイン・田植機・草刈機など）が壊れたときに、どこに頼めるか、来てもらえるか、そのメーカー・機種に対応できるかを探せるようにするサイトです。修理の頼み方・費用の目安・農繁期の備えをまとめています。地域ごとの事業者の一覧は千葉県から準備中です。
+
+- 載せているのは、公式サイト・公式の料金表・事業者への確認で分かったことだけです。
+
+## 機種
+- [トラクターの修理の頼み方](https://agri.shiokonbu.com/machine/tractor/)
+- [コンバインの修理の頼み方](https://agri.shiokonbu.com/machine/combine/)
+- [田植機の修理の頼み方](https://agri.shiokonbu.com/machine/rice-transplanter/)
+- [草刈機・刈払機の修理の頼み方](https://agri.shiokonbu.com/machine/mower/)
+
+## 困りごと
+- [修理を頼む前に伝えること](https://agri.shiokonbu.com/guide/how-to-ask/)
+- [修理費用と出張費の目安](https://agri.shiokonbu.com/guide/fee/)
+- [農繁期に待たされないために](https://agri.shiokonbu.com/guide/busy-season/)
+- [ほかの店で買った農機の修理](https://agri.shiokonbu.com/guide/other-store/)
+- [古い農機の修理](https://agri.shiokonbu.com/guide/old-machine/)
+- [メーカー別の頼み先](https://agri.shiokonbu.com/guide/maker/)
+
+- [このサイトについて](https://agri.shiokonbu.com/about/)
