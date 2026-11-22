@@ -61,7 +61,7 @@ def page(path, d):
         attr = f' id="{anchor}"' if anchor else ""
         body.append(f'<section{attr}><h2>{html.escape(h2)}</h2>{fill(content, used)}</section>')
     ld = []
-    crumbs = [{"@type": "ListItem", "position": 1, "name": NAME, "item": SITE + "/"}]
+    crumbs = [{"@type": "ListItem", "position": 1, "name": "産地のマーケット", "item": SITE + "/"}]
     if path:
         crumbs.append({"@type": "ListItem", "position": 2, "name": label(path), "item": url})
         ld.append({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": crumbs})
@@ -76,7 +76,7 @@ def page(path, d):
         body.append('<section class="sources"><h2>出典</h2><ol>' + "".join(
             f'<li id="src-{k}"><a href="{P.SOURCES[k][1]}" rel="noopener" target="_blank">{html.escape(P.SOURCES[k][0])}</a>（確認日：{P.SOURCES[k][2]}）</li>'
             for k in used) + "</ol></section>")
-    if path:
+    if path and path != "repair/":
         rel = [(f"/machine/{s}/", n) for s, n in P.MACHINES] + [(f"/guide/{s}/", n) for s, n in P.GUIDES]
         rel = [(h, n) for h, n in rel if h != "/" + path]
         body.append('<nav class="related" aria-label="ほかのページ"><h2>ほかのページ</h2><ul>' + "".join(
@@ -85,7 +85,7 @@ def page(path, d):
     t, desc = html.escape(d["title"]), html.escape(d["desc"])
     hero = ' class="hero"' if d.get("hero") else ' class="page-intro"'
     actions = ('<div class="actions"><a class="button" href="/#categories">カテゴリーを見る</a><a class="button secondary" href="/repair/">機械修理ガイド</a></div>' if not path else '<div class="actions"><a class="button" href="/machine/mower/">草刈機の修理相談</a><a class="button secondary" href="/guide/other-store/">購入店に頼めないとき</a></div>') if d.get("hero") else ''
-    next_step = '' if not path else '<aside class="next-step"><div><span class="eyebrow">次の一歩</span><h2>機械と条件をまとめて、相談先へ。</h2><p>購入経路と持込・出張の希望も伝え、受付できるかを確認しましょう。</p></div><div class="actions"><a class="button" href="/guide/maker/">メーカーの公式案内へ</a><a class="button secondary" href="/guide/how-to-ask/">相談の準備を見る</a></div></aside>'
+    next_step = '' if not path or path == "repair/" else '<aside class="next-step"><div><span class="eyebrow">次の一歩</span><h2>機械と条件をまとめて、相談先へ。</h2><p>購入経路と持込・出張の希望も伝え、受付できるかを確認しましょう。</p></div><div class="actions"><a class="button" href="/guide/maker/">メーカーの公式案内へ</a><a class="button secondary" href="/guide/how-to-ask/">相談の準備を見る</a></div></aside>'
 
     site_name = "産地のマーケット" if not path else NAME
     header_nav = '<a href="/#categories">食材から探す</a><a href="/repair/">機械修理ガイド</a>' if not path else '<a href="/repair/#machine">機械から探す</a><a href="/guide/other-store/">購入店に頼めない</a><a href="/guide/how-to-ask/#transport">持込・出張</a><a href="/guide/fee/">費用</a><a href="/about/">掲載方針</a>'
@@ -156,7 +156,7 @@ def main():
         for path in paths:
             f.write(f"  <url><loc>{SITE}/{path}</loc><lastmod>{TODAY}</lastmod></url>\n")
         f.write("</urlset>\n")
-    lines = [f"# {NAME}", "",
+    lines = ["# 産地のマーケット", "", "- 農産物の産直通販サイトを準備中。注文・決済・商品掲載は未実装。", "", "- [機械修理さがし](" + SITE + "/repair/)", "", f"## {NAME}", "",
              "> 購入店不明・他店やネット購入・持込困難な小型機械・作業機・農業機械の修理相談ガイド。草刈機・刈払機から、条件の確認できる修理先への接続を目指しています。",
              "", "- 現在利用できるのは相談準備のガイドとメーカー公式案内へのリンクです。条件別業者検索・修理受付・仲介・空き状況照会は準備中です。",
              "- 千葉県の草刈機・刈払機から供給条件の確認を進める方針です。未確認の受付可否は保証しません。",
