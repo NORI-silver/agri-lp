@@ -45,3 +45,9 @@
 2. GitHub：Settings → Pages → Source を「GitHub Actions」にし、Custom domain に `agri.shiokonbu.com`、Enforce HTTPS をオン。
 3. Search Console に `agri.shiokonbu.com` を追加し、sitemap.xml を送る。
 4. ~~GA4~~ 済み（2026-11-03、プロパティ agri.shiokonbu.com・測定ID G-QXP10ZVT9S）。
+
+## [E] 共通ルール：マッチングの精度を上げる（Nori 2026-11-22）
+
+調査・データ・画面・集客・提携・点検の全担当は、作業前に[マッチング精度の共通ルール](https://github.com/NORI-silver/pet-lp/blob/main/docs/ai/matching-evidence.md)を読む。分類だけで終わらせず、「ユーザーが自分の場合に使えるか」を変える細かな条件を、口コミ・質問・実利用から見つけ、出典・確認日・適用範囲つきで埋める。口コミと公式条件は区別し、必須条件の未確認を適合にも非適合にも数えない。件数ではなく、同じケースで誤適合・判断不能・判断時間がどう変わるかで確かめる。
+
+普通に閲覧できる公開情報の調査と内部整理は一律に止めない。明確に禁止された取得方法は使わず、転載・公開・外部連絡は既存ルールに従って別判定にする。農機修理は型番・症状・他店購入機・出張・引取・部品を分けて確認する。農産物は別分野として熟度・規格・小口数量・納品条件などを扱い、修理の正本と混ぜない。
