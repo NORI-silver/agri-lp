@@ -21,9 +21,28 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Verify and stage public files
+        run: |
+          python3 tools/build.py .
+          python3 tools/seo_check.py .
+          python3 -m unittest discover -s tools/tests -p 'test_*.py'
+          mkdir /tmp/agri-public
+          python3 - <<'PYTHON'
+          import pathlib, shutil
+          root = pathlib.Path('.')
+          out = pathlib.Path('/tmp/agri-public')
+          for p in root.rglob('*'):
+              if any(x.startswith('.') or x in {'tools','server','docs','__pycache__'} for x in p.parts):
+                  continue
+              if p.is_file() and (p.suffix in {'.html','.css','.js','.json','.svg','.png','.jpg','.webp','.xml','.txt','.ico'} or p.name == 'CNAME'):
+                  target = out / p
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  shutil.copyfile(p, target)
+          (out / '.nojekyll').touch()
+          PYTHON
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: /tmp/agri-public
       - id: deployment
         uses: actions/deploy-pages@v4

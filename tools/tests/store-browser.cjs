@@ -1,0 +1,18 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+const {spawn}=require('node:child_process');
+const assert=require('node:assert/strict');
+(async()=>{const server=spawn('python3',['-m','http.server','8873','--bind','127.0.0.1'],{stdio:'ignore'});let browser;try{
+await new Promise(r=>setTimeout(r,500));browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
+const page=await browser.newPage({viewport:{width:390,height:844}}),errors=[];page.on('pageerror',e=>errors.push(e.message));const go=p=>page.goto('http://127.0.0.1:8873'+p);
+await go('/');await page.getByRole('heading',{name:/食卓に/}).waitFor();assert.equal(await page.locator('.card').count(),4);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'/private/tmp/agri-mobile-home.png',fullPage:true});
+await go('/products/?category='+encodeURIComponent('野菜'));await page.waitForFunction(()=>document.querySelectorAll('.card').length===1);
+await page.locator('[name=q]').fill('存在しない商品');await page.getByRole('button',{name:'探す',exact:true}).click();await page.getByText('該当する商品はありません。',{exact:false}).waitFor();
+await go('/products/carrot/');await page.locator('#add').waitFor();await page.locator('#quantity').fill('9');await page.locator('#add').click();assert.equal(await page.locator('#count').textContent(),'0');await page.locator('#quantity').fill('2');await page.locator('#add').click();assert.equal(await page.locator('#count').textContent(),'2');
+await go('/products/jam/');await page.locator('#add').waitFor();assert.equal(await page.locator('#add').isDisabled(),true);
+await go('/cart/');await page.locator('[data-qty]').waitFor();await page.locator('[data-qty]').fill('3');await page.locator('[data-qty]').dispatchEvent('change');await go('/cart/');assert.equal(await page.locator('[data-qty]').inputValue(),'3');
+await go('/checkout/');await page.locator('#destination').waitFor();await page.locator('#place').click();assert.equal(new URL(page.url()).pathname,'/checkout/');await page.locator('#destination').selectOption('北海道');assert.match(await page.locator('#total').textContent(),/4,440円/);await page.locator('input[type=checkbox]').check();await page.locator('#place').evaluate(b=>{b.click();b.click();});await page.waitForURL('**/complete/');await page.getByRole('heading',{name:'デモ記録 1件'}).waitFor();await page.reload();await page.getByRole('heading',{name:'デモ記録 1件'}).waitFor();
+await go('/producers/field/');await page.getByRole('heading',{name:'畑の便り（架空）'}).waitFor();assert.equal(await page.locator('.card').count(),2);
+await go('/products/apple/');await page.locator('#add').click();await go('/cart/');await page.locator('[data-remove]').click();await page.getByText('カートは空です。',{exact:true}).waitFor();
+await go('/repair/');assert.match(await page.locator('link[rel=canonical]').getAttribute('href'),/\/repair\/$/);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'/private/tmp/agri-mobile-repair.png',fullPage:true});
+await go('/orders/');await page.locator('#clear').click();await page.waitForURL('**/cart/');assert.equal(await page.evaluate(()=>localStorage.getItem('agri-demo-v1')),null);assert.deepEqual(errors,[]);console.log('PASS: mobile layout, search/filter, details, stock limits, quantity persistence, removal, shipping, required fields, duplicate click, completion persistence, producer, repair canonical, data deletion; no JS errors.');
+}finally{if(browser)await browser.close();server.kill();}})().catch(e=>{console.error(e);process.exit(1)});

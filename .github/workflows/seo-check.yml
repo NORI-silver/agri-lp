@@ -22,3 +22,16 @@ jobs:
           git diff --stat --exit-code || (echo "tools/pages.py を直したら python3 tools/build.py . を実行して、生成ファイルもコミットしてください"; exit 1)
       - name: SEO と文言のチェック
         run: python3 tools/seo_check.py .
+      - name: Order validation, idempotency and stock transactions
+        run: python3 -m unittest discover -s tools/tests -p 'test_*.py' -v
+      - name: JavaScript syntax
+        run: node --check shop/store.js
+      - name: Install browser test runner
+        run: npm install --prefix /tmp/agri-browser-test playwright@1.65.1
+      - name: Mobile storefront and local order API
+        env:
+          PLAYWRIGHT_MODULE: /tmp/agri-browser-test/node_modules/playwright
+          CHROME_PATH: /usr/bin/google-chrome
+        run: |
+          node tools/tests/store-browser.cjs
+          node tools/tests/store-api-browser.cjs

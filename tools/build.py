@@ -6,12 +6,13 @@
 import html, json, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import store
 import pages as P  # noqa: E402
 
 ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
 SITE = "https://agri.shiokonbu.com"
 NAME = "機械修理さがし"  # サイト上に「shiokonbu」は出さない（Nori 2026-11-03）
-TODAY = "2026-11-03"
+TODAY = "2026-11-23"
 
 LOGO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5a5 5 0 0 0-6.8 6.8L3 18a2.1 2.1 0 0 0 3 3l4.7-4.7a5 5 0 0 0 6.8-6.8L14 13l-3-3z"/></svg>'
 
@@ -62,8 +63,10 @@ def page(path, d):
         body.append(f'<section{attr}><h2>{html.escape(h2)}</h2>{fill(content, used)}</section>')
     ld = []
     crumbs = [{"@type": "ListItem", "position": 1, "name": "産地のマーケット", "item": SITE + "/"}]
+    if path and path != "repair/":
+        crumbs.append({"@type": "ListItem", "position": 2, "name": NAME, "item": SITE + "/repair/"})
     if path:
-        crumbs.append({"@type": "ListItem", "position": 2, "name": label(path), "item": url})
+        crumbs.append({"@type": "ListItem", "position": len(crumbs) + 1, "name": label(path), "item": url})
         ld.append({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": crumbs})
     else:
         ld.append({"@context": "https://schema.org", "@type": "WebSite", "name": NAME, "url": SITE + "/", "inLanguage": "ja"})
@@ -81,7 +84,7 @@ def page(path, d):
         rel = [(h, n) for h, n in rel if h != "/" + path]
         body.append('<nav class="related" aria-label="ほかのページ"><h2>ほかのページ</h2><ul>' + "".join(
             f'<li><a href="{h}">{html.escape(n)}</a></li>' for h, n in rel) + "</ul></nav>")
-    crumb_html = "" if not path else f'<nav class="crumb" aria-label="パンくず"><a href="/">トップ</a> › {html.escape(label(path))}</nav>'
+    crumb_html = '<nav class="crumb" aria-label="パンくず"><a href="/">トップ</a> › 機械修理さがし</nav>' if path == "repair/" else "" if not path else f'<nav class="crumb" aria-label="パンくず"><a href="/">トップ</a> › <a href="/repair/">機械修理さがし</a> › {html.escape(label(path))}</nav>'
     t, desc = html.escape(d["title"]), html.escape(d["desc"])
     hero = ' class="hero"' if d.get("hero") else ' class="page-intro"'
     actions = ('<div class="actions"><a class="button" href="/#categories">カテゴリーを見る</a><a class="button secondary" href="/repair/">機械修理ガイド</a></div>' if not path else '<div class="actions"><a class="button" href="/machine/mower/">草刈機の修理相談</a><a class="button secondary" href="/guide/other-store/">購入店に頼めないとき</a></div>') if d.get("hero") else ''
@@ -142,7 +145,7 @@ def main():
 <body><main class="wrap page-intro"><p class="eyebrow">{NAME}</p><h1>ページが見つかりません</h1><p>アドレスが変わったか、公開されていないページです。</p><div class="actions"><a class="button" href="/">トップへ戻る</a><a class="button secondary" href="/guide/how-to-ask/">修理相談の準備へ</a></div></main></body></html>
 """
     open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(not_found)
-    paths = list(P.PAGES)
+    paths = [p for p in P.PAGES if p]
     for path in paths:
         out = os.path.join(ROOT, path, "index.html")
         os.makedirs(os.path.dirname(out), exist_ok=True)
@@ -151,12 +154,13 @@ def main():
             html_text = html_text.replace("<section><h2>機種から探す", '<section id="machine"><h2>機種から探す')
             html_text = html_text.replace("<section><h2>困りごとから探す", '<section id="guide"><h2>困りごとから探す')
         open(out, "w", encoding="utf-8").write(html_text)
+    paths += store.build(ROOT)
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
         for path in paths:
             f.write(f"  <url><loc>{SITE}/{path}</loc><lastmod>{TODAY}</lastmod></url>\n")
         f.write("</urlset>\n")
-    lines = ["# 産地のマーケット", "", "- 農産物の産直通販サイトを準備中。注文・決済・商品掲載は未実装。", "", "- [機械修理さがし](" + SITE + "/repair/)", "", f"## {NAME}", "",
+    lines = ["# 産地のマーケット", "", "- 農産物の産直通販デモ。商品・生産者は架空。カートと注文記録は端末内のみ。実注文・決済・発送は行いません。", "", "- [機械修理さがし](" + SITE + "/repair/)", "", f"## {NAME}", "",
              "> 購入店不明・他店やネット購入・持込困難な小型機械・作業機・農業機械の修理相談ガイド。草刈機・刈払機から、条件の確認できる修理先への接続を目指しています。",
              "", "- 現在利用できるのは相談準備のガイドとメーカー公式案内へのリンクです。条件別業者検索・修理受付・仲介・空き状況照会は準備中です。",
              "- 千葉県の草刈機・刈払機から供給条件の確認を進める方針です。未確認の受付可否は保証しません。",
