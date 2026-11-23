@@ -35,18 +35,21 @@ def tabechoku_references():
  ids=Counter(r['id'] for r in rows)
  if any(count != 1 for count in ids.values()):
   raise ValueError('Duplicate producer ID')
- labels={
-  'profile_record':'食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。',
-  'legacy_profile_record':'過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。',
-  'listing_record':'食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。',
- }
+ valid_evidence={'profile_record','legacy_profile_record','listing_record'}
  for r in rows:
-  if not re.fullmatch(r'[0-9]+',r['id']) or not r['name'] or not r['region'] or r['evidence_kind'] not in labels:
+  if not re.fullmatch(r'[0-9]+',r['id']) or not r['name'] or not r['region'] or r['evidence_kind'] not in valid_evidence:
    raise ValueError('Invalid producer reference')
   goods=r['commodities']
-  evidence=[dict(field='listing',text=labels[r['evidence_kind']])]
-  if goods:
-   evidence.append(dict(field='commodities',text='記録にある品目：'+goods+'。現在の販売品・在庫・配送は未確認。'))
+  locality=r.get('locality')
+  # These are discovery facts, never offers. Check history stays in the source seed.
+  short_place=locality or r['region']
+  useful_goods=goods if goods and goods not in {'農産物','農作物'} else None
+  summary=r.get('profile_note') or (f'{short_place}。取扱品目の例：{useful_goods}。' if useful_goods else None)
+  evidence=[]
+  if locality:
+   evidence.append(dict(field='locality',text=locality if r['region'] in locality else r['region']+locality))
+  if useful_goods:
+   evidence.append(dict(field='commodities',text=useful_goods))
   photo = {}
   if r['id'] in PROFILE_PHOTO_IDS:
    relative = f"shop/images/producers/{r['id']}.jpg"
@@ -56,8 +59,8 @@ def tabechoku_references():
   # Profile/listing metadata is not an offer or an audience/category eligibility rule.
   yield dict(
    id='tabechoku-'+r['id'],name=r['name'],region=r['region'],categories=[],audiences=[],frequency=[],
-   smallLot=None,minimum=None,commodities=goods,summary=labels[r['evidence_kind']],evidence=evidence,
-   url='https://www.tabechoku.com/producers/'+r['id'],checked='2026-11-23',
-   kind='marketplace_reference',evidenceKind=r['evidence_kind'],sourceChecked=r.get('source_checked'),
+   smallLot=None,minimum=None,commodities=useful_goods,locality=locality,summary=summary,evidence=evidence,
+   url='https://www.tabechoku.com/producers/'+r['id'],profileSource=r.get('profile_source'),
+   kind='marketplace_reference',
    enrolled=False,availability='unknown',sourcePlatform='食べチョク',**photo,
   )
