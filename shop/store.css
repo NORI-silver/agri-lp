@@ -14,3 +14,6 @@
 
 .farm-profile-wrap{overflow:hidden}
 .farm-profile-photo{display:block;width:100%;height:100%;object-fit:cover}
+
+/* 生産者公式の風景写真を正方形・円に切り取らない。 */
+.farm-scene-wrap{border-radius:4px}.farm-scene-wrap .farm-profile-photo{object-fit:contain}.producer-scene{margin:16px 0}.producer-scene img{display:block;max-width:100%;width:auto;height:auto;object-fit:contain;border-radius:4px}.producer-scene figcaption{font-size:.8125rem;margin-top:4px;color:var(--muted)}

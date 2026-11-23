@@ -156,7 +156,13 @@
     "kind": "marketplace_reference",
     "enrolled": false,
     "availability": "unknown",
-    "sourcePlatform": "食べチョク"
+    "sourcePlatform": "食べチョク",
+    "photo": "/shop/images/producers/25.jpg",
+    "photoSource": "https://www.villagetrust-tsukudafarm.com/",
+    "photoKind": "producer_official_site_scene",
+    "photoAlt": "農園の畑",
+    "photoWidth": 640,
+    "photoHeight": 480
   },
   {
     "id": "tabechoku-29467",
@@ -484,7 +490,13 @@
     "kind": "marketplace_reference",
     "enrolled": false,
     "availability": "unknown",
-    "sourcePlatform": "食べチョク"
+    "sourcePlatform": "食べチョク",
+    "photo": "/shop/images/producers/24297.jpg",
+    "photoSource": "https://www.fukusensuisan.com/fukusensuisansyokai",
+    "photoKind": "producer_official_site_scene",
+    "photoAlt": "しらすの加工設備",
+    "photoWidth": 300,
+    "photoHeight": 200
   },
   {
     "id": "tabechoku-23256",
@@ -571,7 +583,13 @@
     "kind": "marketplace_reference",
     "enrolled": false,
     "availability": "unknown",
-    "sourcePlatform": "食べチョク"
+    "sourcePlatform": "食べチョク",
+    "photo": "/shop/images/producers/3078507.jpg",
+    "photoSource": "https://www.meisterwerk-jp.com/",
+    "photoKind": "producer_official_site_scene",
+    "photoAlt": "ハウスで栽培中のいちご",
+    "photoWidth": 640,
+    "photoHeight": 360
   },
   {
     "id": "tabechoku-22728",
@@ -1526,7 +1544,13 @@
     "kind": "marketplace_reference",
     "enrolled": false,
     "availability": "unknown",
-    "sourcePlatform": "食べチョク"
+    "sourcePlatform": "食べチョク",
+    "photo": "/shop/images/producers/20150.jpg",
+    "photoSource": "https://www.norakuranoujyou.com/aboutus",
+    "photoKind": "producer_official_site_scene",
+    "photoAlt": "冬の農場風景",
+    "photoWidth": 640,
+    "photoHeight": 480
   },
   {
     "id": "tabechoku-20911",
@@ -2169,7 +2193,13 @@
     "kind": "marketplace_reference",
     "enrolled": false,
     "availability": "unknown",
-    "sourcePlatform": "食べチョク"
+    "sourcePlatform": "食べチョク",
+    "photo": "/shop/images/producers/20192.jpg",
+    "photoSource": "https://kyoho.jp/contents/local",
+    "photoKind": "producer_official_site_scene",
+    "photoAlt": "栽培中のぶどう棚",
+    "photoWidth": 640,
+    "photoHeight": 361
   },
   {
     "id": "tabechoku-27095",
@@ -2343,7 +2373,13 @@
     "kind": "marketplace_reference",
     "enrolled": false,
     "availability": "unknown",
-    "sourcePlatform": "食べチョク"
+    "sourcePlatform": "食べチョク",
+    "photo": "/shop/images/producers/22337.jpg",
+    "photoSource": "https://mizutama-teafarm.com/blogs/oshirase/shincha-start-2026",
+    "photoKind": "producer_official_site_scene",
+    "photoAlt": "新茶の畑",
+    "photoWidth": 640,
+    "photoHeight": 427
   },
   {
     "id": "tabechoku-24821",
@@ -2633,7 +2669,13 @@
     "kind": "marketplace_reference",
     "enrolled": false,
     "availability": "unknown",
-    "sourcePlatform": "食べチョク"
+    "sourcePlatform": "食べチョク",
+    "photo": "/shop/images/producers/24382.jpg",
+    "photoSource": "https://www.karuizawa-ichigo.com/%E8%BE%B2%E5%9C%92%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+    "photoKind": "producer_official_site_scene",
+    "photoAlt": "いちご栽培のハウス",
+    "photoWidth": 623,
+    "photoHeight": 480
   },
   {
     "id": "tabechoku-20771",
@@ -3269,7 +3311,13 @@
     "kind": "marketplace_reference",
     "enrolled": false,
     "availability": "unknown",
-    "sourcePlatform": "食べチョク"
+    "sourcePlatform": "食べチョク",
+    "photo": "/shop/images/producers/26182.jpg",
+    "photoSource": "https://negiya-kenmochi.com/negiya/",
+    "photoKind": "producer_official_site_scene",
+    "photoAlt": "無人直売所",
+    "photoWidth": 286,
+    "photoHeight": 286
   },
   {
     "id": "tabechoku-22840",
