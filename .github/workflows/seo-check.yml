@@ -25,7 +25,10 @@ jobs:
       - name: Order validation, idempotency and stock transactions
         run: python3 -m unittest discover -s tools/tests -p 'test_*.py' -v
       - name: JavaScript syntax
-        run: node --check shop/store.js
+        run: |
+          node --check shop/store.js
+          node --check shop/matching.js
+          node tools/tests/matching-core.cjs
       - name: Install browser test runner
         run: npm install --prefix /tmp/agri-browser-test playwright@1.65.1
       - name: Mobile storefront and local order API
@@ -35,3 +38,4 @@ jobs:
         run: |
           node tools/tests/store-browser.cjs
           node tools/tests/store-api-browser.cjs
+          node tools/tests/matching-browser.cjs
