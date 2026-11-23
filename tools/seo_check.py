@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """SEOと文言ルールの自動チェック（外部ライブラリ不要）。使い方: python3 tools/seo_check.py . → NGがあれば終了コード1。"""
 import os, re, sys, collections
+from urllib.parse import urlsplit
 from html.parser import HTMLParser
 
 ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
@@ -20,7 +21,7 @@ class P(HTMLParser):
         elif tag == "link" and a.get("rel") == "canonical": s.canon = a.get("href")
         elif tag == "h1": s.h1 += 1
         elif tag == "h2": s.h2 += 1
-        elif tag == "a" and (a.get("href") or "").startswith("/"): s.links.append(a["href"].split("#")[0])
+        elif tag == "a" and (a.get("href") or "").startswith("/"): s.links.append(urlsplit(a["href"]).path)
     def handle_endtag(s, tag):
         if tag == "title": s._t = False
         elif tag in ("script", "style"): s._skip -= 1

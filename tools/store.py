@@ -1,6 +1,7 @@
 """Explicit demo storefront. No real orders, payments or personal data collection."""
 import json, os, html
 import matching
+import store_layout
 PRODUCTS = [
  dict(id='carrot',name='土付きにんじん',category='野菜',region='千葉',season='冬',price=980,amount='1kg',stock=8,producer='field',emoji='🥕',color='#f2c99f'),
  dict(id='apple',name='りんごの詰め合わせ',category='果物',region='長野',season='冬',price=2400,amount='3kg',stock=5,producer='orchard',emoji='🍎',color='#efc0b2'),
@@ -18,7 +19,7 @@ POLICIES={
 
 def build(root):
  matching.build(root)
- paths=['','match/','requests/','for-producers/','products/','producers/','cart/','checkout/','complete/','orders/']+[f'products/{p["id"]}/' for p in PRODUCTS]+[f'producers/{p["id"]}/' for p in PRODUCERS]+[f'{k}/' for k in POLICIES]
+ paths=['','match/','requests/','for-producers/','compare/','inquiry/','how-it-works/','products/','producers/','cart/','checkout/','complete/','orders/']+[f'products/{p["id"]}/' for p in PRODUCTS]+[f'producers/{p["id"]}/' for p in PRODUCERS]+[f'{k}/' for k in POLICIES]
  for p in PRODUCTS:
   svg=f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480"><rect width="640" height="480" fill="{p["color"]}"/><text x="320" y="260" text-anchor="middle" font-size="130">{p["emoji"]}</text><text x="320" y="420" text-anchor="middle" font-size="24" fill="#263e31">DEMO / イメージイラスト</text></svg>'
   os.makedirs(os.path.join(root,'shop','images'),exist_ok=True)
@@ -26,10 +27,10 @@ def build(root):
  open(os.path.join(root,'shop','catalog.json'),'w').write(json.dumps(dict(products=PRODUCTS,producers=PRODUCERS),ensure_ascii=False))
  for path in paths:
   entry=next((p['name'] for p in PRODUCTS if path==f"products/{p['id']}/"),None) or next((p['name'] for p in PRODUCERS if path==f"producers/{p['id']}/"),None)
-  title=entry or POLICIES.get(path.rstrip('/'),('',))[0] or ('産地のつながり' if not path else {'match/':'条件を整理して生産者を探す','producers/':'生産者の公式窓口を探す','requests/':'保存した相談の下書き','for-producers/':'生産者の方へ'}.get(path,'商品と生産者を探す'))
+  title=entry or POLICIES.get(path.rstrip('/'),('',))[0] or ('産地のつながり' if not path else {'match/':'条件を整理して生産者を探す','producers/':'生産者の公式窓口を探す','requests/':'保存した相談の下書き','for-producers/':'生産者の方へ','compare/':'選んだ相談先を比較する','inquiry/':'相談文を用意して公式窓口へ','how-it-works/':'産地のつながりのご利用ガイド'}.get(path,'商品と生産者を探す'))
   policy=POLICIES.get(path.rstrip('/'))
   content=f'<h1>{policy[0]}</h1><p>{policy[1]}</p><h2>公開状況</h2><p>実販売は開始していません。</p>' if policy else '<h1>欲しい農産物から、作り手とつながる。</h1><p>用途・品目・規格・数量・納品頻度などの希望を整理し、公式情報を比較して相談文を作れます。</p><h2>希望条件から相談先を探す</h2><p>条件検索と比較にはJavaScriptを有効にしてください。各生産者への相談は公式サイトの窓口で行えます。</p><h2>生産者の公式情報</h2><p>以下は公開情報への参照です。登録・提携を確認した生産者一覧ではなく、現在の受付可否は未確認です。</p><ul>' + ''.join(f'<li><a href="{html.escape(r["url"])}" rel="noopener noreferrer">{html.escape(r["name"])}</a>（公式情報）</li>' for r in matching.REFERENCES) + '</ul><a href="/producers/">参照先を比較する</a>'
-  text=f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}｜農産物と生産者のマッチング案内サイト</title><meta name="description" content="農産物を探す人と生産者をつなぐ案内サイトです。用途・数量・規格・納品頻度などの希望を整理し、公式情報を比較して相談文を作成できます。現在の受付可否は各公式窓口で確認してください。"><link rel="canonical" href="https://agri.shiokonbu.com/{path}"><meta name="robots" content="{'index,follow' if not path or policy else 'noindex,follow'}"><link rel="stylesheet" href="/shop/store.css"><script src="/shop/matching-core.js" defer></script><script src="/shop/matching.js" defer></script><script src="/shop/store.js" defer></script></head><body><a class="skip" href="#content">本文へ</a><div class="notice">公式情報の比較・相談文作成に対応。サイト内の相談送信・実購入は未対応です。</div><header><a class="brand" href="/">産地のつながり<span>農産物を探す人と、つくる人をつなぐ。</span></a><nav aria-label="メイン"><a href="/match/">希望条件から探す</a><a href="/producers/">生産者の公式情報</a><a href="/requests/">相談の下書き</a><a href="/cart/">カート <b id="count">0</b></a></nav></header><main id="content" tabindex="-1">{content}</main><footer><h2>産地のつながりについて</h2><p>農産物の希望条件を整理し、公式情報と比べて相談先を探せます。各生産者の参加・提携を示すものではありません。購入サンプルの商品は架空です。</p><nav>{''.join(f'<a href="/{k}/">{v[0]}</a>' for k,v in POLICIES.items())}<a href="/for-producers/">生産者の方へ</a><a href="/products/">購入機能のサンプル</a><a href="/orders/">端末のデモ注文記録</a><a href="/repair/">機械修理さがし</a></nav><button id="clear" type="button">端末に保存したデータを削除</button><p id="storage-status" role="status"></p></footer></body></html>'''
+  text=store_layout.render(root, path, title, content, POLICIES)
   os.makedirs(os.path.join(root,path),exist_ok=True)
   open(os.path.join(root,path,'index.html'),'w').write(text)
  return [p for p in paths if not p or p.rstrip('/') in POLICIES]

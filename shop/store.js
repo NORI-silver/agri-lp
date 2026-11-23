@@ -4,12 +4,12 @@ const main=document.querySelector('main'),yen=n=>n.toLocaleString('ja-JP')+'円'
 let state={cart:{},orders:[],token:null},data;
 try{state=JSON.parse(localStorage.getItem(key))||state;if(!state.cart||!Array.isArray(state.orders))throw Error();}catch{state={cart:{},orders:[],token:null};}
 const save=()=>{try{localStorage.setItem(key,JSON.stringify(state));return true;}catch{alert('端末に保存できません。ブラウザーの保存設定を確認してください。');return false;}};
+if(window.AgriMatching&&await window.AgriMatching.render({main}))return;
 try{const r=await fetch('/shop/catalog.json');if(!r.ok)throw Error();data=await r.json();}catch{main.innerHTML='<h1>商品を読み込めませんでした</h1><p>通信を確認して再読み込みしてください。</p>';return;}
 let endpoint=null;try{const r=await fetch('/shop/runtime.json');endpoint=(await r.json()).orderEndpoint;}catch{}
 const {products,producers}=data,prod=id=>products.find(p=>p.id===id),farmer=id=>producers.find(p=>p.id===id),path=location.pathname.split('/').filter(Boolean);
 for(const id of Object.keys(state.cart)){const p=prod(id),q=state.cart[id];if(!p||!Number.isInteger(q)||q<1)delete state.cart[id];else state.cart[id]=Math.min(q,p.stock);if(state.cart[id]===0)delete state.cart[id];}
 const count=()=>document.querySelector('#count').textContent=Object.values(state.cart).reduce((a,b)=>a+b,0);count();
-if(window.AgriMatching&&await window.AgriMatching.render({main,data}))return;
 const image=p=>`<img src="/shop/images/${p.id}.svg" alt="${p.name}のデモイラスト" width="640" height="480">`;
 const card=p=>`<article class="card"><a href="/products/${p.id}/">${image(p)}<span class="tag">架空商品・デモ</span><h3>${p.name}</h3></a><p>${p.region} / ${p.amount}</p><p><strong>${yen(p.price)}</strong>（税込デモ価格）</p><p>${p.stock?'デモ在庫 '+p.stock+'点':'在庫切れ'}</p><a href="/producers/${p.producer}/">${farmer(p.producer).name}</a></article>`;
 const filters=()=>`<form id="search" class="filters"><label>キーワード<input name="q" type="search" maxlength="100" placeholder="にんじん、産地など"></label><label>カテゴリー<select name="category"><option value="">すべて</option>${['野菜','果物','米','その他'].map(x=>`<option>${x}</option>`).join('')}</select></label><label>産地<select name="region"><option value="">すべて</option>${['千葉','長野'].map(x=>`<option>${x}</option>`).join('')}</select></label><label>旬<select name="season"><option value="">すべて</option><option>冬</option><option>秋</option><option>通年</option></select></label><label><input type="checkbox" name="stock">在庫あり</label><label>並び順<select name="sort"><option value="">掲載順</option><option value="price">価格が安い順</option></select></label><button>探す</button></form>`;
