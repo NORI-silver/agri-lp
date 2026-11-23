@@ -23,4 +23,33 @@ for r in REFERENCES:
 def build(root):
  import json,os
  os.makedirs(os.path.join(root,'shop'),exist_ok=True)
- with open(os.path.join(root,'shop/references.json'),'w') as f:json.dump(REFERENCES,f,ensure_ascii=False,indent=2)
+ with open(os.path.join(root,'shop/references.json'),'w') as f:json.dump(REFERENCES + list(tabechoku_references()),f,ensure_ascii=False,indent=2)
+
+def tabechoku_references():
+ import json,re
+ from pathlib import Path
+ from collections import Counter
+ rows=json.loads(Path(__file__).with_name('agri_producers.json').read_text(encoding='utf-8'))
+ ids=Counter(r['id'] for r in rows)
+ if any(count != 1 for count in ids.values()):
+  raise ValueError('Duplicate producer ID')
+ labels={
+  'profile_record':'食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。',
+  'legacy_profile_record':'過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。',
+  'listing_record':'食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。',
+ }
+ for r in rows:
+  if not re.fullmatch(r'[0-9]+',r['id']) or not r['name'] or not r['region'] or r['evidence_kind'] not in labels:
+   raise ValueError('Invalid producer reference')
+  goods=r['commodities']
+  evidence=[dict(field='listing',text=labels[r['evidence_kind']])]
+  if goods:
+   evidence.append(dict(field='commodities',text='記録にある品目：'+goods+'。現在の販売品・在庫・配送は未確認。'))
+  # Profile/listing metadata is not an offer or an audience/category eligibility rule.
+  yield dict(
+   id='tabechoku-'+r['id'],name=r['name'],region=r['region'],categories=[],audiences=[],frequency=[],
+   smallLot=None,minimum=None,commodities=goods,summary=labels[r['evidence_kind']],evidence=evidence,
+   url='https://www.tabechoku.com/producers/'+r['id'],checked='2026-11-23',
+   kind='marketplace_reference',evidenceKind=r['evidence_kind'],sourceChecked=r.get('source_checked'),
+   enrolled=False,availability='unknown',sourcePlatform='食べチョク',
+  )

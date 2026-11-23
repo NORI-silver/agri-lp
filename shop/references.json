@@ -128,5 +128,3773 @@
     "enrolled": false,
     "permission": "not_obtained",
     "availability": "unknown"
+  },
+  {
+    "id": "tabechoku-25",
+    "name": "京都大原 つくだ農園",
+    "region": "京都府",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "有機野菜",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：有機野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-29467",
+    "name": "NAKAO FARM",
+    "region": "佐賀県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "アスパラガス",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：アスパラガス。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/29467",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-8",
+    "name": "自然栽培専門店「自然栽培園北村」",
+    "region": "佐賀県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "米",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/8",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24682",
+    "name": "AGRiOTA",
+    "region": "兵庫県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "米",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24682",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28357",
+    "name": "Veggie",
+    "region": "兵庫県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "野菜",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28357",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23397",
+    "name": "とまとや中村阮",
+    "region": "兵庫県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "トマト",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：トマト。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23397",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20272",
+    "name": "和田農園",
+    "region": "兵庫県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "玉ねぎ",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：玉ねぎ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20272",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25104",
+    "name": "銀山博之",
+    "region": "兵庫県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "玉ねぎ・レタス・米",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：玉ねぎ・レタス・米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25104",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25370",
+    "name": "とかち河田ファーム",
+    "region": "北海道",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "野菜・キヌア",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：野菜・キヌア。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25370",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3078671",
+    "name": "合同会社 柏原農園",
+    "region": "北海道",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "花",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：花。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3078671",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28505",
+    "name": "ヤマハン",
+    "region": "千葉県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": null,
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28505",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25163",
+    "name": "上尚みかん畑",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "みかん",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：みかん。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25163",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24297",
+    "name": "上野山翔史(福扇水産)",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "しらす",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：しらす。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24297",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23256",
+    "name": "小澤農場",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "みかん",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：みかん。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23256",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22777",
+    "name": "木村農園(和歌山県)",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "果物",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：果物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22777",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3078507",
+    "name": "杉戸いちご農園",
+    "region": "埼玉県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "いちご",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：いちご。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3078507",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22728",
+    "name": "真心農園",
+    "region": "埼玉県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "いちご",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：いちご。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22728",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26579",
+    "name": "青空えむふぁーむ",
+    "region": "埼玉県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "いちじく・野菜",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：いちじく・野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26579",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-27958",
+    "name": "やまとファームJapan",
+    "region": "奈良県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "キウイ",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：キウイ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/27958",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3077607",
+    "name": "BERRY FARM",
+    "region": "宮崎県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "有機農産物",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：有機農産物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3077607",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-21725",
+    "name": "てづか農園",
+    "region": "宮崎県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "野菜",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/21725",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26502",
+    "name": "大野農園",
+    "region": "宮崎県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "農産物",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：農産物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26502",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26755",
+    "name": "星農園",
+    "region": "宮崎県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "農産物",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：農産物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26755",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-21261",
+    "name": "聖徳丸",
+    "region": "富山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "天然魚介類",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：天然魚介類。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/21261",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20000",
+    "name": "マルヘイ農園",
+    "region": "山形県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "米",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20000",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26048",
+    "name": "羽柴果樹園",
+    "region": "山形県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "果物",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：果物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26048",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3078043",
+    "name": "【南アルプス】ベリーファーム",
+    "region": "山梨県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "桃・さくらんぼ・すもも・ブルーベリー",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：桃・さくらんぼ・すもも・ブルーベリー。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3078043",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22366",
+    "name": "きくらげ本舗 三善",
+    "region": "岐阜県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "きくらげ",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：きくらげ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22366",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28696",
+    "name": "神の使い EGG&HONEY 古代蜜蜂園",
+    "region": "岡山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "はちみつ・卵",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：はちみつ・卵。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28696",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20680",
+    "name": "Mueller's Farm ムラーズファーム",
+    "region": "島根県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "有機野菜",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：有機野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20680",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20441",
+    "name": "とびしま農園",
+    "region": "広島県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "レモン",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：レモン。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20441",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25606",
+    "name": "新口農園",
+    "region": "愛媛県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "柑橘",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：柑橘。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25606",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-27910",
+    "name": "藤鶴青果",
+    "region": "愛媛県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "果物",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：果物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/27910",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22769",
+    "name": "株式会社 こまがた農園",
+    "region": "新潟県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "米",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22769",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20383",
+    "name": "那須だんごろ山のましこさん",
+    "region": "栃木県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "トマト・葉物",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：トマト・葉物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20383",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-29089",
+    "name": "椛島農園",
+    "region": "熊本県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "米・卵・野菜",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：米・卵・野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/29089",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-29080",
+    "name": "鈴木みかん園",
+    "region": "神奈川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "みかん",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：みかん。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/29080",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26116",
+    "name": "(株)田村農場",
+    "region": "福岡県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": null,
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26116",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22032",
+    "name": "コロコロ梨工房",
+    "region": "福岡県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "梨",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：梨。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22032",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20628",
+    "name": "川村菜園",
+    "region": "福岡県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "トマト",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：トマト。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20628",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-27800",
+    "name": "かがやきいちご園",
+    "region": "群馬県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "いちご",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：いちご。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/27800",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23185",
+    "name": "やわらぎファーム",
+    "region": "茨城県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ブルーベリー・りんご",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ブルーベリー・りんご。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23185",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23355",
+    "name": "七会きのこセンター",
+    "region": "茨城県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "きのこ",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：きのこ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23355",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22683",
+    "name": "二川農園",
+    "region": "茨城県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "さつまいも・干し芋",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：さつまいも・干し芋。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22683",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22955",
+    "name": "市川蓮根",
+    "region": "茨城県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "れんこん",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：れんこん。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22955",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24207",
+    "name": "常陸農園",
+    "region": "茨城県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "干し芋",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：干し芋。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24207",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25151",
+    "name": "晴れ晴れファーム",
+    "region": "茨城県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "野菜・にんにく・とうもろこし",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：野菜・にんにく・とうもろこし。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25151",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25492",
+    "name": "檜山いちご園",
+    "region": "茨城県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "いちご",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：いちご。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25492",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22662",
+    "name": "海老澤栗園",
+    "region": "茨城県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "栗",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：栗。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22662",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20660",
+    "name": "SEVEN BOWLs",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": null,
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20660",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20150",
+    "name": "のらくら農場",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "多品種野菜",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：多品種野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20150",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20911",
+    "name": "ハヤシファーム",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "豚肉",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：豚肉。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20911",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22325",
+    "name": "信州MIYAFARM",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "卵",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：卵。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22325",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-21528",
+    "name": "安曇野ファミリー農産",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "りんご・果物",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：りんご・果物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/21528",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25666",
+    "name": "(株)のざわりんごえん",
+    "region": "青森県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "りんご",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：りんご。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25666",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20198",
+    "name": "SKOS合同会社",
+    "region": "青森県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "自然栽培野菜",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：自然栽培野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20198",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23552",
+    "name": "イチヤマジュウ塩越商店",
+    "region": "青森県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ほたて",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ほたて。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23552",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-21056",
+    "name": "五代目わさび師『坂ぐち』",
+    "region": "静岡県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "わさび",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：わさび。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/21056",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23258",
+    "name": "栄ちゃんファーム",
+    "region": "静岡県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "トマト",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：トマト。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23258",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20241",
+    "name": "森木農園",
+    "region": "静岡県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "いちご・茶・メロン",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：いちご・茶・メロン。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20241",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23138",
+    "name": "果樹園 Nishimura",
+    "region": "高知県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ぽんかん",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ぽんかん。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23138",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23676",
+    "name": "うとさんち",
+    "region": "鹿児島県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "とうもろこし・さつまいも",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：とうもろこし・さつまいも。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23676",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-21656",
+    "name": "てらすファーム",
+    "region": "鹿児島県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "さつまいも",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：さつまいも。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/21656",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26353",
+    "name": "氏家ファーム",
+    "region": "香川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "アスパラガス、トウモロコシ、ブロッコリー",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：アスパラガス、トウモロコシ、ブロッコリー。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26353",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3079503",
+    "name": "高山農園",
+    "region": "福井県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "米",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3079503",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-21682",
+    "name": "Peace of Farm",
+    "region": "香川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "季節野菜、漬物、味噌",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：季節野菜、漬物、味噌。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/21682",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28039",
+    "name": "フジカワ果樹園",
+    "region": "香川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "みかん、しらぬひ、甘夏、レモン",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：みかん、しらぬひ、甘夏、レモン。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28039",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-27784",
+    "name": "井下とまと園",
+    "region": "香川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "フルーツトマト",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：フルーツトマト。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/27784",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20882",
+    "name": "農家-Sanukifuji",
+    "region": "香川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "アスパラガス",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：アスパラガス。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20882",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23746",
+    "name": "ふつうファーム",
+    "region": "香川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "菊芋、にんにく、レタス、じゃがいも",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：菊芋、にんにく、レタス、じゃがいも。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23746",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28136",
+    "name": "山本大志郎",
+    "region": "香川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "アスパラガス、ブロッコリー",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：アスパラガス、ブロッコリー。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28136",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3077301",
+    "name": "TAGATAME〖タガタメ〗",
+    "region": "香川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "野菜、ハーブ、エディブルフラワー",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：野菜、ハーブ、エディブルフラワー。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3077301",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-27026",
+    "name": "二代目市川農園",
+    "region": "山形県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "さくらんぼ、桃、りんご、ラ・フランス、米",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：さくらんぼ、桃、りんご、ラ・フランス、米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/27026",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20192",
+    "name": "東御こもだ果樹園",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ぶどう（巨峰、シャインマスカット等）",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ぶどう（巨峰、シャインマスカット等）。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20192",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-27095",
+    "name": "阿南農園",
+    "region": "大分県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ミニトマト・なす・スイートコーン",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ミニトマト・なす・スイートコーン。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/27095",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28188",
+    "name": "タンポポ農園食べチョク店",
+    "region": "岡山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ぶどう・ブルーベリー・米",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ぶどう・ブルーベリー・米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28188",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-29035",
+    "name": "ミサトファーム",
+    "region": "福島県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "フルーツトマト",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：フルーツトマト。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/29035",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26503",
+    "name": "月木農園（つきもくのうえん）",
+    "region": "青森県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ミニトマト",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ミニトマト。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26503",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26870",
+    "name": "ツジファーム",
+    "region": "山梨県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ぶどう",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ぶどう。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26870",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22337",
+    "name": "みずたま農園製茶場",
+    "region": "静岡県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "茶",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：茶。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22337",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24821",
+    "name": "南の果樹園ニュウズ",
+    "region": "愛媛県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "みかん・柑橘",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：みかん・柑橘。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24821",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3078876",
+    "name": "丸六穂高わさび問屋",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "わさび",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：わさび。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3078876",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22916",
+    "name": "奈良いちご園",
+    "region": "奈良県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "いちご",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：いちご。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22916",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3078052",
+    "name": "横山ファーム",
+    "region": "埼玉県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "固定種野菜",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：固定種野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3078052",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26913",
+    "name": "石垣島新鮮野菜きまぐれ〜kimagure〜",
+    "region": "沖縄県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "パイナップル・マンゴー",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：パイナップル・マンゴー。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26913",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3079060",
+    "name": "農園紀の国/kinokunifarm",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "農産物",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：農産物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3079060",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3079009",
+    "name": "ウエヒラファーム",
+    "region": "奈良県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "すいか",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：すいか。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3079009",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24981",
+    "name": "村垣農園",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "桃",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：桃。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24981",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25055",
+    "name": "西表ジャングルファーム",
+    "region": "沖縄県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "マイヤーレモン・バナナ・パパイヤ",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：マイヤーレモン・バナナ・パパイヤ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25055",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24382",
+    "name": "軽井沢いちご工房",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "夏秋いちご",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：夏秋いちご。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24382",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20771",
+    "name": "白山堂",
+    "region": "石川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "イワナ・ニジマス",
+    "summary": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの一覧掲載の記録があります。個別プロフィールの内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：イワナ・ニジマス。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20771",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "listing_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24149",
+    "name": "鳥好",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "地鶏",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：地鶏。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24149",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20436",
+    "name": "山和農園",
+    "region": "佐賀県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "梨・ぶどう",
+    "summary": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "食べチョクの個別プロフィールを確認した記録があります。今回の直接再確認は未実施です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：梨・ぶどう。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20436",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "profile_record",
+    "sourceChecked": null,
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24105",
+    "name": "COCOSATO（ココサト）",
+    "region": "山形県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "野菜、山菜、じゅんさい",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：野菜、山菜、じゅんさい。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24105",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25097",
+    "name": "岩原農園",
+    "region": "岡山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ぶどう",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ぶどう。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25097",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26148",
+    "name": "ファームトピア",
+    "region": "北海道",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "農作物",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：農作物。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26148",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28452",
+    "name": "折尾茶園",
+    "region": "鹿児島県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "知覧茶",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：知覧茶。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28452",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24882",
+    "name": "長岡ファーム",
+    "region": "山形県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "さくらんぼ、りんご、とうもろこし",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：さくらんぼ、りんご、とうもろこし。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24882",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23136",
+    "name": "くらます農園",
+    "region": "鳥取県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "梨",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：梨。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23136",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3079138",
+    "name": "山梨中村屋　中村ブドウ農園",
+    "region": "山梨県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ぶどう",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ぶどう。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3079138",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20510",
+    "name": "米農家　仁左ェ門",
+    "region": "岩手県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "米",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20510",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-29326",
+    "name": "乙姫丸&乙姫屋",
+    "region": "熊本県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "魚、ウニ、サザエ、ワカメ、ワタリガニ",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：魚、ウニ、サザエ、ワカメ、ワタリガニ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/29326",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3078382",
+    "name": "トボリファーム",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ケール",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ケール。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3078382",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22346",
+    "name": "平田花園",
+    "region": "佐賀県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "カーネーション、唐辛子",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：カーネーション、唐辛子。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22346",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-24909",
+    "name": "ケーズファーム",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "柿",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：柿。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/24909",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-21135",
+    "name": "海ぶどう屋さん　富永養殖",
+    "region": "沖縄県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "海ぶどう",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：海ぶどう。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/21135",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3077806",
+    "name": "花笑み農園",
+    "region": "岡山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ぶどう",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ぶどう。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3077806",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23159",
+    "name": "せんい生活 熊本県人吉市",
+    "region": "熊本県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "きくらげ、しいたけ",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：きくらげ、しいたけ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23159",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28230",
+    "name": "うおぬま小岩農園",
+    "region": "新潟県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "米",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：米。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28230",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22446",
+    "name": "中村農場",
+    "region": "鹿児島県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "甘夏・レモン・ライム",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：甘夏・レモン・ライム。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22446",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3077223",
+    "name": "西谷農園",
+    "region": "鳥取県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "梨・米・玉ねぎ",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：梨・米・玉ねぎ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3077223",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-26182",
+    "name": "葱や けんもち",
+    "region": "埼玉県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "深谷ねぎ",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：深谷ねぎ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/26182",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22840",
+    "name": "にしぐち農園",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "梨・柿・みかん・和牛",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：梨・柿・みかん・和牛。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22840",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25387",
+    "name": "三田　忠和",
+    "region": "長野県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "ぶどう・キウイフルーツ",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：ぶどう・キウイフルーツ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25387",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-29333",
+    "name": "さつまゆうすい農場　そのやま農園",
+    "region": "鹿児島県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "野菜",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/29333",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-20817",
+    "name": "伊吹島プロジェクト",
+    "region": "香川県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "カタクチイワシ・いりこ",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：カタクチイワシ・いりこ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/20817",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3078123",
+    "name": "のどかなナチュラルファーム",
+    "region": "福岡県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "季節の野菜・果物・乾燥粉末",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：季節の野菜・果物・乾燥粉末。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3078123",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-22251",
+    "name": "松島牡蠣屋",
+    "region": "宮城県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "牡蠣、ワタリガニ、イシガニ、マダコ",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：牡蠣、ワタリガニ、イシガニ、マダコ。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/22251",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-27121",
+    "name": "ほのぼの農園",
+    "region": "愛媛県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "米、麦、野菜、とうもろこし",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：米、麦、野菜、とうもろこし。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/27121",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3077433",
+    "name": "西果樹園",
+    "region": "和歌山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "みかん、はっさく、レモン、南高梅",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：みかん、はっさく、レモン、南高梅。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3077433",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28741",
+    "name": "伊藤果樹農園",
+    "region": "青森県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "りんご",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：りんご。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28741",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-23510",
+    "name": "うしろ農園",
+    "region": "兵庫県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "トマト、野菜",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：トマト、野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/23510",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-21399",
+    "name": "Farmer‘s Yard",
+    "region": "兵庫県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "有機野菜",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：有機野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/21399",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-3077711",
+    "name": "どんたけし農園",
+    "region": "熊本県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "平飼い卵、野菜",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：平飼い卵、野菜。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/3077711",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-28986",
+    "name": "日生かき安本",
+    "region": "岡山県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "牡蠣",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：牡蠣。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/28986",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
+  },
+  {
+    "id": "tabechoku-25319",
+    "name": "Farm おとらふ",
+    "region": "山形県",
+    "categories": [],
+    "audiences": [],
+    "frequency": [],
+    "smallLot": null,
+    "minimum": null,
+    "commodities": "さくらんぼ、ラ・フランス",
+    "summary": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。",
+    "evidence": [
+      {
+        "field": "listing",
+        "text": "過去の取込記録に食べチョクの個別プロフィール確認があります。現在の内容は未確認です。"
+      },
+      {
+        "field": "commodities",
+        "text": "記録にある品目：さくらんぼ、ラ・フランス。現在の販売品・在庫・配送は未確認。"
+      }
+    ],
+    "url": "https://www.tabechoku.com/producers/25319",
+    "checked": "2026-11-23",
+    "kind": "marketplace_reference",
+    "evidenceKind": "legacy_profile_record",
+    "sourceChecked": "2026-11-19～2026-11-21（原本記載）",
+    "enrolled": false,
+    "availability": "unknown",
+    "sourcePlatform": "食べチョク"
   }
 ]

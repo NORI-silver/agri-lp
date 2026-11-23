@@ -5,5 +5,12 @@ r=core.evaluate(rice,{category:'果物',smallLot:true});assert.equal(r.results.f
 r=core.evaluate({...rice,minimum:5000},{budget:3000});assert.equal(r.excluded,true);assert.equal(r.results.find(x=>x.field==='budget').state,'no');
 r=core.evaluate({...rice,minimum:5000},{budget:5000});assert.equal(r.results.find(x=>x.field==='budget').state,'published');assert.equal(r.results.find(x=>x.field==='availability').state,'unknown');
 const text=core.brief({category:'野菜',item:'にんじん',quantity:'5kg',budget:'3000',smallLot:true},[rice]);assert.match(text,/にんじん/);assert.match(text,/5kg/);assert.match(text,/3?000円/);assert.match(text,/発注・契約の確定ではありません/);
-assert.ok(refs.every(r=>r.kind==='official_reference'&&!r.enrolled&&r.permission==='not_obtained'&&r.checked&&r.url.startsWith('https://')));
+const lookup = refs.filter(r=>r.kind==='official_reference');
+assert.equal(lookup.length, 4);
+assert.ok(lookup.every(r=>!r.enrolled&&r.permission==='not_obtained'&&r.checked&&r.url.startsWith('https://')));
+const catalog = refs.filter(r=>r.kind==='marketplace_reference');
+assert.equal(catalog.length, new Set(catalog.map(r=>r.id)).size);
+assert.ok(catalog.length > 24);
+assert.ok(catalog.every(r=>!r.enrolled && r.availability==='unknown' && !r.audiences.length && !r.photo && r.url===('https://www.tabechoku.com/producers/'+r.id.replace(/^tabechoku-/,'') )));
+assert.ok(core.evaluate(catalog[0],{category:'野菜',audience:'飲食店・事業者',quantity:'4kg'}).results.every(r=>r.state==='unknown'));
 console.log('PASS: matching evidence states, unknown preservation, explicit budget conflict, no acceptance inference, brief fields, reference provenance.');
