@@ -4,28 +4,34 @@
     "name": "京都大原 つくだ農園",
     "region": "京都府",
     "commodities": "有機野菜",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "京都市左京区"
   },
   {
     "id": "29467",
     "name": "NAKAO FARM",
     "region": "佐賀県",
     "commodities": "アスパラガス",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "武雄市"
   },
   {
     "id": "8",
     "name": "自然栽培専門店「自然栽培園北村」",
     "region": "佐賀県",
     "commodities": "米",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "佐賀市"
   },
   {
     "id": "24682",
     "name": "AGRiOTA",
     "region": "兵庫県",
-    "commodities": "米",
-    "evidence_kind": "listing_record"
+    "commodities": "米（蛇紋岩コシヒカリ）",
+    "evidence_kind": "listing_record",
+    "locality": "養父市",
+    "profile_note": "兵庫県養父市産の蛇紋岩コシヒカリ「氷ノ山の恵み」。玄米や精米の案内がある。",
+    "profile_source": "https://www.tabechoku.com/producers/24682/articles"
   },
   {
     "id": "28357",
@@ -53,28 +59,35 @@
     "name": "銀山博之",
     "region": "兵庫県",
     "commodities": "玉ねぎ・レタス・米",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "南あわじ市"
   },
   {
     "id": "25370",
     "name": "とかち河田ファーム",
     "region": "北海道",
     "commodities": "野菜・キヌア",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "音更町"
   },
   {
     "id": "3078671",
     "name": "合同会社 柏原農園",
     "region": "北海道",
-    "commodities": "花",
-    "evidence_kind": "listing_record"
+    "commodities": "花（デルフィニウム）",
+    "evidence_kind": "listing_record",
+    "locality": "新ひだか町",
+    "profile_note": "新ひだか町で夫婦で切り花を栽培。青系のデルフィニウム（エラータム系）が出品例。",
+    "profile_source": "https://www.tabechoku.com/producers/3078671"
   },
   {
     "id": "28505",
     "name": "ヤマハン",
     "region": "千葉県",
-    "commodities": null,
-    "evidence_kind": "profile_record"
+    "commodities": "落花生・米",
+    "evidence_kind": "profile_record",
+    "profile_note": "落花生と米の専門卸。千葉県産の大粒落花生「おおまさり」などを扱う。",
+    "profile_source": "https://www.yamahan.com/%E5%95%86%E5%93%81%E4%B8%80%E8%A6%A7/"
   },
   {
     "id": "25163",
@@ -88,49 +101,59 @@
     "name": "上野山翔史(福扇水産)",
     "region": "和歌山県",
     "commodities": "しらす",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "有田市"
   },
   {
     "id": "23256",
     "name": "小澤農場",
     "region": "和歌山県",
     "commodities": "みかん",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "有田郡"
   },
   {
     "id": "22777",
     "name": "木村農園(和歌山県)",
     "region": "和歌山県",
     "commodities": "果物",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "紀の川市"
   },
   {
     "id": "3078507",
     "name": "杉戸いちご農園",
     "region": "埼玉県",
     "commodities": "いちご",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "杉戸町"
   },
   {
     "id": "22728",
     "name": "真心農園",
     "region": "埼玉県",
     "commodities": "いちご",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "東松山市"
   },
   {
-    "id": "26579",
+    "id": "3078664",
     "name": "青空えむふぁーむ",
     "region": "埼玉県",
-    "commodities": "いちじく・野菜",
-    "evidence_kind": "listing_record"
+    "commodities": "いちじく・野菜・金ごま",
+    "evidence_kind": "listing_record",
+    "locality": "加須市",
+    "profile_note": "加須市でいちじくや野菜を育てる。金ごまも出品している。",
+    "profile_source": "https://www.tabechoku.com/products/296110",
+    "supersedes_id": "26579"
   },
   {
     "id": "27958",
     "name": "やまとファームJapan",
     "region": "奈良県",
     "commodities": "キウイ",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "宇陀市"
   },
   {
     "id": "3077607",
@@ -150,22 +173,29 @@
     "id": "26502",
     "name": "大野農園",
     "region": "宮崎県",
-    "commodities": "農産物",
-    "evidence_kind": "profile_record"
+    "commodities": "いちご",
+    "evidence_kind": "profile_record",
+    "locality": "宮崎市田野町",
+    "profile_note": "宮崎市田野町のいちご農園。「おおきみ」や白いいちご「天使のいちご」を育てる。",
+    "profile_source": "https://www.tabechoku.com/producers/26502"
   },
   {
     "id": "26755",
     "name": "星農園",
     "region": "宮崎県",
-    "commodities": "農産物",
-    "evidence_kind": "profile_record"
+    "commodities": "きゅうり",
+    "evidence_kind": "profile_record",
+    "locality": "延岡市",
+    "profile_note": "延岡市で、地下からくみ上げた水を使ってきゅうりを育てる。",
+    "profile_source": "https://www.tabechoku.com/producers/26755"
   },
   {
     "id": "21261",
     "name": "聖徳丸",
     "region": "富山県",
     "commodities": "天然魚介類",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "朝日町"
   },
   {
     "id": "20000",
@@ -186,14 +216,18 @@
     "name": "【南アルプス】ベリーファーム",
     "region": "山梨県",
     "commodities": "桃・さくらんぼ・すもも・ブルーベリー",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "昭和町",
+    "profile_note": "南アルプスで、桃、さくらんぼ、すもも、ブルーベリーなどの果実を育てる。",
+    "profile_source": "https://www.tabechoku.com/producers/3078043"
   },
   {
     "id": "22366",
     "name": "きくらげ本舗 三善",
     "region": "岐阜県",
     "commodities": "きくらげ",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "岐南町"
   },
   {
     "id": "28696",
@@ -228,14 +262,16 @@
     "name": "藤鶴青果",
     "region": "愛媛県",
     "commodities": "果物",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "新居浜市"
   },
   {
     "id": "22769",
     "name": "株式会社 こまがた農園",
     "region": "新潟県",
     "commodities": "米",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "南魚沼市"
   },
   {
     "id": "20383",
@@ -249,7 +285,8 @@
     "name": "椛島農園",
     "region": "熊本県",
     "commodities": "米・卵・野菜",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "南阿蘇村"
   },
   {
     "id": "29080",
@@ -262,8 +299,11 @@
     "id": "26116",
     "name": "(株)田村農場",
     "region": "福岡県",
-    "commodities": null,
-    "evidence_kind": "profile_record"
+    "commodities": "米",
+    "evidence_kind": "profile_record",
+    "locality": "築上郡",
+    "profile_note": "福岡県築上郡で、家族三世代が米を育てる。",
+    "profile_source": "https://www.tabechoku.com/producers/26116/posts"
   },
   {
     "id": "22032",
@@ -277,7 +317,8 @@
     "name": "川村菜園",
     "region": "福岡県",
     "commodities": "トマト",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "嘉麻市"
   },
   {
     "id": "27800",
@@ -291,14 +332,16 @@
     "name": "やわらぎファーム",
     "region": "茨城県",
     "commodities": "ブルーベリー・りんご",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "小美玉市"
   },
   {
     "id": "23355",
     "name": "七会きのこセンター",
     "region": "茨城県",
     "commodities": "きのこ",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "城里町"
   },
   {
     "id": "22683",
@@ -312,7 +355,8 @@
     "name": "市川蓮根",
     "region": "茨城県",
     "commodities": "れんこん",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "土浦市"
   },
   {
     "id": "24207",
@@ -326,14 +370,16 @@
     "name": "晴れ晴れファーム",
     "region": "茨城県",
     "commodities": "野菜・にんにく・とうもろこし",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "水戸市"
   },
   {
     "id": "25492",
     "name": "檜山いちご園",
     "region": "茨城県",
     "commodities": "いちご",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "常陸太田市"
   },
   {
     "id": "22662",
@@ -346,29 +392,37 @@
     "id": "20660",
     "name": "SEVEN BOWLs",
     "region": "長野県",
-    "commodities": null,
-    "evidence_kind": "profile_record"
+    "commodities": "サラダ用葉野菜・花",
+    "evidence_kind": "profile_record",
+    "locality": "中野市",
+    "profile_note": "長野県中野市で花を生産。ルッコラやレタスなどを組み合わせたサラダセットも手がける。",
+    "profile_source": "https://www.tabechoku.com/producers/nagano?page=5"
   },
   {
     "id": "20150",
     "name": "のらくら農場",
     "region": "長野県",
     "commodities": "多品種野菜",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "南佐久郡"
   },
   {
     "id": "20911",
     "name": "ハヤシファーム",
     "region": "長野県",
     "commodities": "豚肉",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "飯田市"
   },
   {
     "id": "22325",
     "name": "信州MIYAFARM",
     "region": "長野県",
     "commodities": "卵",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "小川村",
+    "profile_note": "小川村の養鶏農家。飼料は長野県産の原料を中心に選び、品種の異なる鶏の卵を混ぜて発送する。",
+    "profile_source": "https://www.tabechoku.com/producers/22325"
   },
   {
     "id": "21528",
@@ -396,7 +450,8 @@
     "name": "イチヤマジュウ塩越商店",
     "region": "青森県",
     "commodities": "ほたて",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "平内町"
   },
   {
     "id": "21056",
@@ -410,21 +465,24 @@
     "name": "栄ちゃんファーム",
     "region": "静岡県",
     "commodities": "トマト",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "下田市"
   },
   {
     "id": "20241",
     "name": "森木農園",
     "region": "静岡県",
     "commodities": "いちご・茶・メロン",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "牧之原市"
   },
   {
     "id": "23138",
     "name": "果樹園 Nishimura",
     "region": "高知県",
     "commodities": "ぽんかん",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "須崎市"
   },
   {
     "id": "23676",
@@ -445,210 +503,265 @@
     "name": "氏家ファーム",
     "region": "香川県",
     "commodities": "アスパラガス、トウモロコシ、ブロッコリー",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "仲多度郡まんのう町",
+    "profile_note": "アスパラガスやスイートコーン、ブロッコリーなど、収穫期の異なる野菜を育てる。"
   },
   {
     "id": "3079503",
     "name": "高山農園",
     "region": "福井県",
     "commodities": "米",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "越前市",
+    "profile_note": "越前市で米づくりに取り組む農園。"
   },
   {
     "id": "21682",
     "name": "Peace of Farm",
     "region": "香川県",
     "commodities": "季節野菜、漬物、味噌",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "仲多度郡まんのう町",
+    "profile_note": "季節の野菜に加え、漬物や味噌などの加工品も手がける。"
   },
   {
     "id": "28039",
     "name": "フジカワ果樹園",
     "region": "香川県",
     "commodities": "みかん、しらぬひ、甘夏、レモン",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "観音寺市",
+    "profile_note": "しらぬひ、甘夏、レモンなど、みかん以外の柑橘も育てる。"
   },
   {
     "id": "27784",
     "name": "井下とまと園",
     "region": "香川県",
     "commodities": "フルーツトマト",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "観音寺市",
+    "profile_note": "フィルム農法でフルーツトマトを育てる。"
   },
   {
     "id": "20882",
     "name": "農家-Sanukifuji",
     "region": "香川県",
     "commodities": "アスパラガス",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "丸亀市飯野町",
+    "profile_note": "香川のアスパラガス品種「さぬきのめざめ」を育てる。"
   },
   {
     "id": "23746",
     "name": "ふつうファーム",
     "region": "香川県",
     "commodities": "菊芋、にんにく、レタス、じゃがいも",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "さぬき市昭和",
+    "profile_note": "菊芋やにんにくなどを家族で育てる。"
   },
   {
     "id": "28136",
     "name": "山本大志郎",
     "region": "香川県",
     "commodities": "アスパラガス、ブロッコリー",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "仲多度郡まんのう町",
+    "profile_note": "やまもと農園として、アスパラガスとブロッコリーを栽培。"
   },
   {
     "id": "3077301",
     "name": "TAGATAME〖タガタメ〗",
     "region": "香川県",
     "commodities": "野菜、ハーブ、エディブルフラワー",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "さぬき市",
+    "profile_note": "露地の畑で野菜やハーブ、食べられる花を育てる。"
   },
   {
     "id": "27026",
     "name": "二代目市川農園",
     "region": "山形県",
     "commodities": "さくらんぼ、桃、りんご、ラ・フランス、米",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "天童市",
+    "profile_note": "家族で果樹と米を栽培。さくらんぼや桃などは収穫した日の箱詰めを大切にしている。"
   },
   {
     "id": "20192",
     "name": "東御こもだ果樹園",
     "region": "長野県",
     "commodities": "ぶどう（巨峰、シャインマスカット等）",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "東御市",
+    "profile_note": "巨峰やシャインマスカットなど複数の品種を育てるぶどう園。"
   },
   {
     "id": "27095",
     "name": "阿南農園",
     "region": "大分県",
     "commodities": "ミニトマト・なす・スイートコーン",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "竹田市",
+    "profile_note": "竹田市で季節ごとに野菜を栽培。地元で手に入る有機資材を使い、軽トラックでの市内販売も案内している。",
+    "profile_source": "https://www.tabechoku.com/producers/27095"
   },
   {
     "id": "28188",
     "name": "タンポポ農園食べチョク店",
     "region": "岡山県",
     "commodities": "ぶどう・ブルーベリー・米",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "岡山市",
+    "profile_note": "シャインマスカットとゴールドフィンガーが代表品種。ブルーベリーや米も育てる。",
+    "profile_source": "https://www.tabechoku.com/producers/28188"
   },
   {
     "id": "29035",
     "name": "ミサトファーム",
     "region": "福島県",
     "commodities": "フルーツトマト",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "会津美里町",
+    "profile_note": "フルーツトマト専業。枝についたまま完熟させる「美健トマト」シリーズを手がける。",
+    "profile_source": "https://www.tabechoku.com/producers/29035"
   },
   {
     "id": "26503",
     "name": "月木農園（つきもくのうえん）",
     "region": "青森県",
     "commodities": "ミニトマト",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "階上町"
   },
   {
     "id": "26870",
     "name": "ツジファーム",
     "region": "山梨県",
     "commodities": "ぶどう",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "山梨市"
   },
   {
     "id": "22337",
     "name": "みずたま農園製茶場",
     "region": "静岡県",
     "commodities": "茶",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "牧之原市"
   },
   {
     "id": "24821",
     "name": "南の果樹園ニュウズ",
     "region": "愛媛県",
     "commodities": "みかん・柑橘",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "西宇和郡"
   },
   {
     "id": "3078876",
     "name": "丸六穂高わさび問屋",
     "region": "長野県",
     "commodities": "わさび",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "安曇野市",
+    "profile_note": "1900年創業。安曇野・穂高と松本の湧水でわさびを育てる。",
+    "profile_source": "https://www.tabechoku.com/producers/3078876"
   },
   {
     "id": "22916",
     "name": "奈良いちご園",
     "region": "奈良県",
     "commodities": "いちご",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "北葛城郡"
   },
   {
     "id": "3078052",
     "name": "横山ファーム",
     "region": "埼玉県",
     "commodities": "固定種野菜",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "狭山市"
   },
   {
     "id": "26913",
     "name": "石垣島新鮮野菜きまぐれ〜kimagure〜",
     "region": "沖縄県",
     "commodities": "パイナップル・マンゴー",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "石垣市"
   },
   {
     "id": "3079060",
     "name": "農園紀の国/kinokunifarm",
     "region": "和歌山県",
-    "commodities": "農産物",
-    "evidence_kind": "listing_record"
+    "commodities": "マスクメロン・いちご",
+    "evidence_kind": "listing_record",
+    "locality": "御坊市",
+    "profile_note": "御坊市でマスクメロンを育てる。メロン狩りやいちご狩りも行う観光農園。",
+    "profile_source": "https://kinokunifarm.jp/melon/"
   },
   {
     "id": "3079009",
     "name": "ウエヒラファーム",
     "region": "奈良県",
     "commodities": "すいか",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "五條市"
   },
   {
     "id": "24981",
     "name": "村垣農園",
     "region": "和歌山県",
     "commodities": "桃",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "紀の川市"
   },
   {
     "id": "25055",
     "name": "西表ジャングルファーム",
     "region": "沖縄県",
     "commodities": "マイヤーレモン・バナナ・パパイヤ",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "八重山郡竹富町"
   },
   {
     "id": "24382",
     "name": "軽井沢いちご工房",
     "region": "長野県",
     "commodities": "夏秋いちご",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "軽井沢町"
   },
   {
     "id": "20771",
     "name": "白山堂",
     "region": "石川県",
     "commodities": "イワナ・ニジマス",
-    "evidence_kind": "listing_record"
+    "evidence_kind": "listing_record",
+    "locality": "白山市",
+    "profile_note": "白山の淡水養魚場。イワナやニジマスの養殖だけでなく、川魚の調理・加工も手がける。",
+    "profile_source": "https://www.tabechoku.com/producers/20771"
   },
   {
     "id": "24149",
     "name": "鳥好",
     "region": "和歌山県",
     "commodities": "地鶏",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "御坊市"
   },
   {
     "id": "20436",
     "name": "山和農園",
     "region": "佐賀県",
     "commodities": "梨・ぶどう",
-    "evidence_kind": "profile_record"
+    "evidence_kind": "profile_record",
+    "locality": "伊万里市南波多町",
+    "profile_note": "伊万里市南波多町の果樹園。山を開いた祖父の代から三世代で梨やぶどうを育てる。",
+    "profile_source": "https://www.tabechoku.com/producers?form=search_bar&label_ids%5B%5D=82&page=71"
   },
   {
     "id": "24105",
@@ -656,7 +769,9 @@
     "region": "山形県",
     "commodities": "野菜、山菜、じゅんさい",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "酒田市",
+    "profile_note": "鳥海山麓で採れる山菜やじゅんさい、野菜を扱う。"
   },
   {
     "id": "25097",
@@ -664,7 +779,9 @@
     "region": "岡山県",
     "commodities": "ぶどう",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "高梁市",
+    "profile_note": "祖父母の代からピオーネなどのぶどうを栽培。"
   },
   {
     "id": "26148",
@@ -672,7 +789,9 @@
     "region": "北海道",
     "commodities": "農作物",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "磯谷郡蘭越町",
+    "profile_note": "蘭越町を拠点とする農園。"
   },
   {
     "id": "28452",
@@ -680,7 +799,9 @@
     "region": "鹿児島県",
     "commodities": "知覧茶",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "鹿児島市",
+    "profile_note": "三代続く茶園。知覧茶の深蒸し煎茶を手がける。"
   },
   {
     "id": "24882",
@@ -688,7 +809,9 @@
     "region": "山形県",
     "commodities": "さくらんぼ、りんご、とうもろこし",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "寒河江市",
+    "profile_note": "月山麓の雪解け水を利用し、さくらんぼ、りんご、とうもろこしを栽培。"
   },
   {
     "id": "23136",
@@ -696,7 +819,9 @@
     "region": "鳥取県",
     "commodities": "梨",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "倉吉市",
+    "profile_note": "倉吉の山あいで土づくりを重視し、梨を育てる。"
   },
   {
     "id": "3079138",
@@ -704,7 +829,9 @@
     "region": "山梨県",
     "commodities": "ぶどう",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "笛吹市",
+    "profile_note": "笛吹市で60年以上ぶどう栽培を続ける農園。"
   },
   {
     "id": "20510",
@@ -712,7 +839,9 @@
     "region": "岩手県",
     "commodities": "米",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "滝沢市",
+    "profile_note": "アイガモを田に放すアイガモ農法で米を育てる。"
   },
   {
     "id": "29326",
@@ -720,7 +849,9 @@
     "region": "熊本県",
     "commodities": "魚、ウニ、サザエ、ワカメ、ワタリガニ",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "上天草市",
+    "profile_note": "上天草市の湯島で四代続く漁業者。ウニやサザエ、ワタリガニ、ワカメなどを扱う。"
   },
   {
     "id": "3078382",
@@ -728,7 +859,9 @@
     "region": "長野県",
     "commodities": "ケール",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "北佐久郡御代田町",
+    "profile_note": "御代田町の高冷地でケールを育てる。"
   },
   {
     "id": "22346",
@@ -736,7 +869,9 @@
     "region": "佐賀県",
     "commodities": "カーネーション、唐辛子",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "唐津市",
+    "profile_note": "唐津でカーネーションなどを育てる花き農園。唐辛子も扱う。"
   },
   {
     "id": "24909",
@@ -744,7 +879,9 @@
     "region": "和歌山県",
     "commodities": "柿",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "橋本市",
+    "profile_note": "橋本市で三代続く柿農家。"
   },
   {
     "id": "21135",
@@ -752,7 +889,9 @@
     "region": "沖縄県",
     "commodities": "海ぶどう",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "糸満市",
+    "profile_note": "糸満市で海ぶどうを養殖。2014年から手がけている。"
   },
   {
     "id": "3077806",
@@ -760,7 +899,9 @@
     "region": "岡山県",
     "commodities": "ぶどう",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "真庭市",
+    "profile_note": "真庭の寒暖差を生かし、ぶどうを育てる。"
   },
   {
     "id": "23159",
@@ -768,7 +909,9 @@
     "region": "熊本県",
     "commodities": "きくらげ、しいたけ",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "人吉市",
+    "profile_note": "人吉で、きくらげと温泉しいたけを育てる。"
   },
   {
     "id": "28230",
@@ -776,7 +919,9 @@
     "region": "新潟県",
     "commodities": "米",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "魚沼市",
+    "profile_note": "魚沼市で農薬の使用量を抑えた米づくりに取り組む。"
   },
   {
     "id": "22446",
@@ -784,7 +929,9 @@
     "region": "鹿児島県",
     "commodities": "甘夏・レモン・ライム",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "阿久根市",
+    "profile_note": "阿久根で甘夏、レモン、ライムを育てる。レモンとライムの食べ比べを出品したこともある。"
   },
   {
     "id": "3077223",
@@ -792,7 +939,9 @@
     "region": "鳥取県",
     "commodities": "梨・米・玉ねぎ",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "倉吉市",
+    "profile_note": "梨を中心に米や玉ねぎも生産。梨の品種には二十世紀がある。"
   },
   {
     "id": "26182",
@@ -800,7 +949,9 @@
     "region": "埼玉県",
     "commodities": "深谷ねぎ",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "深谷市",
+    "profile_note": "埼玉県深谷市で「深谷蜜ねぎ」を育てる。"
   },
   {
     "id": "22840",
@@ -808,7 +959,9 @@
     "region": "和歌山県",
     "commodities": "梨・柿・みかん・和牛",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "紀の川市",
+    "profile_note": "紀の川市で梨・柿・みかんを育て、和牛の肥育も手がける。"
   },
   {
     "id": "25387",
@@ -816,7 +969,9 @@
     "region": "長野県",
     "commodities": "ぶどう・キウイフルーツ",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "須坂市",
+    "profile_note": "須坂市でぶどうとキウイフルーツを育てる。"
   },
   {
     "id": "29333",
@@ -824,7 +979,9 @@
     "region": "鹿児島県",
     "commodities": "野菜",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "湧水町",
+    "profile_note": "湧水町で野菜を育てる農園。"
   },
   {
     "id": "20817",
@@ -832,7 +989,9 @@
     "region": "香川県",
     "commodities": "カタクチイワシ・いりこ",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "観音寺市",
+    "profile_note": "観音寺市・伊吹島のカタクチイワシを扱う。出品例は釜揚げいりこ。"
   },
   {
     "id": "3078123",
@@ -840,7 +999,9 @@
     "region": "福岡県",
     "commodities": "季節の野菜・果物・乾燥粉末",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "岡垣町",
+    "profile_note": "季節の野菜や果物を育て、乾燥・粉末加工も手がける。"
   },
   {
     "id": "22251",
@@ -848,7 +1009,9 @@
     "region": "宮城県",
     "commodities": "牡蠣、ワタリガニ、イシガニ、マダコ",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "宮城郡松島町",
+    "profile_note": "松島町で三世代にわたり牡蠣を養殖。ワタリガニやマダコなども扱う。"
   },
   {
     "id": "27121",
@@ -856,7 +1019,9 @@
     "region": "愛媛県",
     "commodities": "米、麦、野菜、とうもろこし",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "伊予郡松前町",
+    "profile_note": "土づくりを重視し、米、麦、とうもろこしなどを育てる。"
   },
   {
     "id": "3077433",
@@ -864,7 +1029,9 @@
     "region": "和歌山県",
     "commodities": "みかん、はっさく、レモン、南高梅",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "有田郡有田川町",
+    "profile_note": "有田川町の五代続く果樹園。みかんのほか、はっさく、レモン、南高梅を育てる。"
   },
   {
     "id": "28741",
@@ -872,7 +1039,9 @@
     "region": "青森県",
     "commodities": "りんご",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "青森市",
+    "profile_note": "青森市で有機肥料を使った土づくりに取り組むりんご農園。"
   },
   {
     "id": "23510",
@@ -880,7 +1049,9 @@
     "region": "兵庫県",
     "commodities": "トマト、野菜",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "洲本市",
+    "profile_note": "洲本市で高糖度トマトなどの野菜を育てる。"
   },
   {
     "id": "21399",
@@ -888,7 +1059,9 @@
     "region": "兵庫県",
     "commodities": "有機野菜",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "神戸市北区",
+    "profile_note": "神戸市北区で多品種の野菜を育てる農園。"
   },
   {
     "id": "3077711",
@@ -896,7 +1069,9 @@
     "region": "熊本県",
     "commodities": "平飼い卵、野菜",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "菊池市",
+    "profile_note": "菊池市で平飼いの鶏を育て、野菜づくりも手がける。"
   },
   {
     "id": "28986",
@@ -904,7 +1079,9 @@
     "region": "岡山県",
     "commodities": "牡蠣",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "備前市日生町",
+    "profile_note": "備前市日生町を拠点に、季節の牡蠣を扱う。"
   },
   {
     "id": "25319",
@@ -912,6 +1089,8 @@
     "region": "山形県",
     "commodities": "さくらんぼ、ラ・フランス",
     "evidence_kind": "legacy_profile_record",
-    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+    "source_checked": "2026-11-19～2026-11-21（原本記載）",
+    "locality": "寒河江市",
+    "profile_note": "寒河江の果樹園。さくらんぼや洋梨のラ・フランスを育てる。"
   }
 ]

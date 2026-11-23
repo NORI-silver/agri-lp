@@ -12,6 +12,14 @@ const catalog = refs.filter(r=>r.kind==='marketplace_reference');
 assert.equal(catalog.length, new Set(catalog.map(r=>r.id)).size);
 assert.ok(catalog.length > 24);
 assert.ok(catalog.every(r=>!r.enrolled && r.availability==='unknown' && !r.audiences.length && r.url===('https://www.tabechoku.com/producers/'+r.id.replace(/^tabechoku-/,'') )));
+const excludedInternalText = /確認した記録|直接再確認|取込記録|確認記録の原本|掲載データ整理日|記録にある品目/;
+assert.equal(catalog.length,126);
+assert.ok(catalog.every(r=>!excludedInternalText.test(JSON.stringify(r))));
+assert.ok(catalog.every(r=>!('sourceChecked' in r) && !('evidenceKind' in r) && !('checked' in r)));
+assert.equal(catalog.find(r=>r.name==='青空えむふぁーむ').id,'tabechoku-3078664');
+assert.equal(catalog.some(r=>r.id==='tabechoku-26579'),false);
+assert.match(catalog.find(r=>r.id==='tabechoku-26182').summary,/深谷蜜ねぎ/);
+assert.match(catalog.find(r=>r.id==='tabechoku-3078671').summary,/デルフィニウム/);
 const photoRefs = catalog.filter(r=>r.photo);
 assert.deepEqual(photoRefs.map(r=>r.id).sort(),['tabechoku-22251','tabechoku-22446','tabechoku-29326']);
 for (const r of photoRefs) {
