@@ -1,0 +1,30 @@
+name: Rebuild marketplace preview
+on:
+  push:
+    branches:
+      - chatgpt/agri-marketplace-home-20261123
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate pages and check
+        run: |
+          python3 tools/build.py .
+          python3 tools/seo_check.py .
+      - name: Commit generated artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate marketplace and repair HTML"
+            git push
+          fi
