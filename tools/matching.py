@@ -32,6 +32,7 @@ def tabechoku_references():
  from pathlib import Path
  from collections import Counter
  rows=json.loads(Path(__file__).with_name('agri_producers.json').read_text(encoding='utf-8'))
+ scenes=json.loads(Path(__file__).with_name('official_scene_photos.json').read_text(encoding='utf-8'))
  ids=Counter(r['id'] for r in rows)
  if any(count != 1 for count in ids.values()):
   raise ValueError('Duplicate producer ID')
@@ -56,6 +57,11 @@ def tabechoku_references():
    if not (Path(__file__).resolve().parent.parent / relative).is_file():
     raise ValueError(f'Missing verified photo: {relative}')
    photo = dict(photo='/' + relative)
+  elif r['id'] in scenes:
+   photo = scenes[r['id']]
+   relative = f"shop/images/producers/{r['id']}.jpg"
+   if photo['photo'] != '/' + relative or not (Path(__file__).resolve().parent.parent / relative).is_file():
+    raise ValueError(f'Missing or mismatched verified scene photo: {relative}')
   # Profile/listing metadata is not an offer or an audience/category eligibility rule.
   yield dict(
    id='tabechoku-'+r['id'],name=r['name'],region=r['region'],categories=[],audiences=[],frequency=[],

@@ -21,7 +21,9 @@ assert.equal(catalog.some(r=>r.id==='tabechoku-26579'),false);
 assert.match(catalog.find(r=>r.id==='tabechoku-26182').summary,/深谷蜜ねぎ/);
 assert.match(catalog.find(r=>r.id==='tabechoku-3078671').summary,/デルフィニウム/);
 const photoRefs = catalog.filter(r=>r.photo);
-assert.deepEqual(photoRefs.map(r=>r.id).sort(),['tabechoku-22251','tabechoku-22446','tabechoku-29326']);
+assert.deepEqual(photoRefs.map(r=>r.id).sort(),['tabechoku-22251','tabechoku-22446','tabechoku-29326','tabechoku-25','tabechoku-20150','tabechoku-20192','tabechoku-22337','tabechoku-24297','tabechoku-24382','tabechoku-26182','tabechoku-3078507'].sort());
+assert.equal(photoRefs.filter(r=>r.photoKind==='producer_official_site_scene').length,8);
+assert.ok(photoRefs.filter(r=>r.photoKind).every(r=>r.photoSource.startsWith('https://')&&r.photoAlt&&r.photoWidth>0&&r.photoHeight>0));
 for (const r of photoRefs) {
   assert.equal(r.photo,'/shop/images/producers/'+r.id.replace(/^tabechoku-/,'')+'.jpg');
   const bytes=require('node:fs').readFileSync(require('node:path').join(__dirname,'../..',r.photo));
