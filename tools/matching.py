@@ -1,4 +1,6 @@
-"""Attributed references, not enrolled sellers. No third-party photos or product offers."""
+"""Attributed references, not enrolled sellers. No product offers."""
+PROFILE_PHOTO_IDS = frozenset({"22251", "22446", "29326"})
+
 REFERENCES = [
  dict(id='nishikaze',name='西風農園',region='福岡県',categories=['野菜'],audiences=['飲食店・事業者'],frequency=[],smallLot=True,minimum=None,
       summary='飲食店向けの野菜卸について、小ロットや品目・納品頻度の相談を案内しています。',
@@ -45,11 +47,17 @@ def tabechoku_references():
   evidence=[dict(field='listing',text=labels[r['evidence_kind']])]
   if goods:
    evidence.append(dict(field='commodities',text='記録にある品目：'+goods+'。現在の販売品・在庫・配送は未確認。'))
+  photo = {}
+  if r['id'] in PROFILE_PHOTO_IDS:
+   relative = f"shop/images/producers/{r['id']}.jpg"
+   if not (Path(__file__).resolve().parent.parent / relative).is_file():
+    raise ValueError(f'Missing verified photo: {relative}')
+   photo = dict(photo='/' + relative)
   # Profile/listing metadata is not an offer or an audience/category eligibility rule.
   yield dict(
    id='tabechoku-'+r['id'],name=r['name'],region=r['region'],categories=[],audiences=[],frequency=[],
    smallLot=None,minimum=None,commodities=goods,summary=labels[r['evidence_kind']],evidence=evidence,
    url='https://www.tabechoku.com/producers/'+r['id'],checked='2026-11-23',
    kind='marketplace_reference',evidenceKind=r['evidence_kind'],sourceChecked=r.get('source_checked'),
-   enrolled=False,availability='unknown',sourcePlatform='食べチョク',
+   enrolled=False,availability='unknown',sourcePlatform='食べチョク',**photo,
   )

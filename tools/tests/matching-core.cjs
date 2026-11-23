@@ -11,6 +11,13 @@ assert.ok(lookup.every(r=>!r.enrolled&&r.permission==='not_obtained'&&r.checked&
 const catalog = refs.filter(r=>r.kind==='marketplace_reference');
 assert.equal(catalog.length, new Set(catalog.map(r=>r.id)).size);
 assert.ok(catalog.length > 24);
-assert.ok(catalog.every(r=>!r.enrolled && r.availability==='unknown' && !r.audiences.length && !r.photo && r.url===('https://www.tabechoku.com/producers/'+r.id.replace(/^tabechoku-/,'') )));
+assert.ok(catalog.every(r=>!r.enrolled && r.availability==='unknown' && !r.audiences.length && r.url===('https://www.tabechoku.com/producers/'+r.id.replace(/^tabechoku-/,'') )));
+const photoRefs = catalog.filter(r=>r.photo);
+assert.deepEqual(photoRefs.map(r=>r.id).sort(),['tabechoku-22251','tabechoku-22446','tabechoku-29326']);
+for (const r of photoRefs) {
+  assert.equal(r.photo,'/shop/images/producers/'+r.id.replace(/^tabechoku-/,'')+'.jpg');
+  const bytes=require('node:fs').readFileSync(require('node:path').join(__dirname,'../..',r.photo));
+  assert.equal(bytes.readUInt16BE(0),0xffd8);
+}
 assert.ok(core.evaluate(catalog[0],{category:'野菜',audience:'飲食店・事業者',quantity:'4kg'}).results.every(r=>r.state==='unknown'));
 console.log('PASS: matching evidence states, unknown preservation, explicit budget conflict, no acceptance inference, brief fields, reference provenance.');
