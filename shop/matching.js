@@ -85,14 +85,14 @@ window.AgriMatching = {
     const image = (file, alt, extra = '') => `<img src="/shop/images/${file}" alt="${esc(alt)}" width="720" height="480" loading="lazy" ${extra}>`;
     const provenance = '<p class="provenance">公式サイトの公開情報を参照しています。提携・登録生産者の一覧ではなく、現在の受付可否は各窓口でご確認ください。</p>';
     const steps = current => `<nav class="journey" aria-label="相談までの流れ">${['探す', '比較する', '相談文をつくる'].map((text, i) => `<span ${i === current ? 'aria-current="step"' : ''}>${text}</span>`).join('')}</nav>`;
-    const criteria = r => [r.audiences.includes('家庭用') ? '家庭向けの案内' : '事業者向けの案内', r.smallLot === true ? '小口相談の案内' : '', r.frequency.includes('定期') ? '定期・継続の案内' : ''].filter(Boolean);
-    const mini = r => `<span class="farm-monogram farm-${r.id}" aria-hidden="true">${esc(r.name.slice(0, 1))}</span>`;
+    const criteria = r => [r.audiences.includes('家庭用') ? '家庭向けの案内' : (r.audiences.includes('飲食店・事業者') ? '事業者向けの案内' : ''), r.smallLot === true ? '小口相談の案内' : '', r.frequency.includes('定期') ? '定期・継続の案内' : ''].filter(Boolean);
+    const mini = r => r.photo ? `<span class="farm-monogram farm-profile-wrap" aria-hidden="true"><img class="farm-profile-photo" src="${esc(r.photo)}" alt="" width="120" height="120" loading="lazy"></span>` : `<span class="farm-monogram farm-${r.id}" aria-hidden="true">${esc(r.name.slice(0, 1))}</span>`;
     const card = (r, evaluation) => `<article class="farm-card reference-card" data-ref="${r.id}">
       <div class="farm-card-top">${mini(r)}<span class="farm-location">${icon('location')}${esc(r.region)}</span><button class="select-farm ${state.selected.includes(r.id) ? 'selected' : ''}" data-select="${r.id}" type="button" aria-pressed="${state.selected.includes(r.id)}" aria-label="${esc(r.name)}を比較${state.selected.includes(r.id) ? 'から外す' : 'に追加'}">${icon(state.selected.includes(r.id) ? 'check' : 'compare')}<span>${state.selected.includes(r.id) ? '選択中' : '比較'}</span></button></div>
-      <p class="farm-crops">${r.categories.map(esc).join(' / ')}</p><h3>${esc(r.name)}</h3><p class="farm-summary">${esc(r.summary)}</p>
+      <p class="farm-crops">${esc(r.commodities || r.categories.join(' / '))}</p><h3>${esc(r.name)}</h3><p class="farm-summary">${esc(r.summary)}</p>
       <div class="farm-tags">${criteria(r).map(t => `<span>${esc(t)}</span>`).join('')}</div>
       ${evaluation?.unknown.length > 1 ? `<p class="condition-note">数量・納品など、個別の条件は相談時に確認</p>` : ''}
-      <div class="farm-card-bottom"><button type="button" class="text-button" data-detail="${r.id}">公開されている案内を見る</button><span class="source-label">公式情報</span></div>
+      <div class="farm-card-bottom"><button type="button" class="text-button" data-detail="${r.id}">公開されている案内を見る</button><span class="source-label">${esc(r.sourcePlatform || '公式情報')}</span></div>
     </article>`;
 
     function updateSelection() {
@@ -130,7 +130,7 @@ window.AgriMatching = {
       let dialog = document.querySelector('#farm-dialog');
       if (!dialog) { dialog = document.createElement('dialog'); dialog.id = 'farm-dialog'; dialog.className = 'farm-dialog'; document.body.append(dialog); }
       dialog.setAttribute('aria-labelledby', 'farm-dialog-title');
-      dialog.innerHTML = `<div class="dialog-head"><span>生産者の公式情報</span><button type="button" class="icon-button" id="close-dialog" aria-label="詳細を閉じる">${icon('close')}</button></div><div class="dialog-content"><div class="detail-farm">${mini(r)}<div><p>${esc(r.region)} / ${r.categories.map(esc).join('・')}</p><h2 id="farm-dialog-title">${esc(r.name)}</h2></div></div><p>${esc(r.summary)}</p><h3>公式サイトで確認できたこと</h3><ul class="evidence-list">${r.evidence.map(e => `<li>${icon('check')}<span>${esc(e.text)}</span></li>`).join('')}</ul><div class="confirm-box"><h3>相談するときに確認したいこと</h3><p>希望品目の収穫・在庫、必要な数量、納品日と配送先、見積りと支払条件。現在の受付可否は未確認です。</p></div><p class="source-date">公開情報の確認日：${esc(r.checked)}</p><a class="external-link" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" data-inquiry="producer-official">出典の公式サイトを開く ${icon('external')}</a>${provenance}</div><div class="dialog-actions"><button id="dialog-select" class="${state.selected.includes(id) ? 'secondary' : ''}">${state.selected.includes(id) ? '比較から外す' : '比較に追加する'}</button><a href="/match/" class="text-button">希望条件を整理する</a></div>`;
+      dialog.innerHTML = `<div class="dialog-head"><span>生産者の公式情報</span><button type="button" class="icon-button" id="close-dialog" aria-label="詳細を閉じる">${icon('close')}</button></div><div class="dialog-content"><div class="detail-farm">${mini(r)}<div><p>${esc(r.region)}${r.categories.length ? ` / ${r.categories.map(esc).join('・')}` : ''}</p><h2 id="farm-dialog-title">${esc(r.name)}</h2></div></div><p>${esc(r.summary)}</p><h3>公式サイトで確認できたこと</h3><ul class="evidence-list">${r.evidence.map(e => `<li>${icon('check')}<span>${esc(e.text)}</span></li>`).join('')}</ul><div class="confirm-box"><h3>相談するときに確認したいこと</h3><p>希望品目の収穫・在庫、必要な数量、納品日と配送先、見積りと支払条件。現在の受付可否は未確認です。</p></div>${r.photo ? '<p class="source-date">プロフィール写真：食べチョク掲載画像</p>' : ''}<p class="source-date">${r.sourcePlatform ? '掲載データ整理日' : '公開情報の確認日'}：${esc(r.checked)}${r.sourceChecked ? `（確認記録の原本：${esc(r.sourceChecked)}）` : ''}</p><a class="external-link" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" data-inquiry="producer-official">${r.sourcePlatform ? '食べチョクのプロフィールを開く' : '出典の公式サイトを開く'} ${icon('external')}</a>${provenance}</div><div class="dialog-actions"><button id="dialog-select" class="${state.selected.includes(id) ? 'secondary' : ''}">${state.selected.includes(id) ? '比較から外す' : '比較に追加する'}</button><a href="/match/" class="text-button">希望条件を整理する</a></div>`;
       document.querySelector('#close-dialog').onclick = () => dialog.close();
       document.querySelector('#dialog-select').onclick = () => { select(id); dialog.close(); };
       dialog.onclick = e => { if (e.target === dialog) { const box = dialog.getBoundingClientRect(); if (e.clientX < box.left || e.clientX > box.right || e.clientY < box.top || e.clientY > box.bottom) dialog.close(); } };
@@ -181,23 +181,29 @@ window.AgriMatching = {
       main.innerHTML = `<div class="page-shell">${intro('FIND YOUR CONNECTION', '生産者の相談先を探す', '農産物、用途、産地から。気になる情報を比較に追加してみましょう。')}<form id="directory-search" class="directory-search"><label class="directory-query">${icon('search')}<span class="sr-only">キーワード</span><input name="q" id="reference-search" type="search" maxlength="100" placeholder="農産物・農園名・地域を入力"></label><button>検索する</button><div class="directory-filters"><label>用途<select name="audience"><option value="">すべての用途</option><option value="household">家庭用</option><option value="business">飲食店・事業者</option></select></label><label>農園の所在地<select name="region"><option value="">すべての地域</option>${[...new Set(refs.map(r => r.region))].map(r => `<option>${esc(r)}</option>`).join('')}</select></label><button type="button" id="reset-filters" class="text-button">条件をリセット</button></div><fieldset class="category-chips"><legend class="sr-only">品目の分類</legend>${['すべて', ...categories.map(c => c.name)].map((c, i) => `<label><input type="radio" name="category" value="${i ? c : ''}" ${!i ? 'checked' : ''}><span>${c}</span></label>`).join('')}</fieldset></form><div id="directory-results" aria-live="polite"></div></div>`;
       const form = document.querySelector('#directory-search');
       prefill(form, Object.fromEntries(params));
-      const run = (replaceURL = true) => {
+      let visible = 24;
+      const run = (replaceURL = true, keepPage = false) => {
+        if (!keepPage) visible = 24;
         const values = new FormData(form), q = String(values.get('q') || '').normalize('NFKC').toLowerCase().trim();
         const request = { category: String(values.get('category') || ''), audience: purposeName(String(values.get('audience') || '')) };
         state.request = { ...state.request, category: request.category, audience: request.audience }; persist();
-        const filtered = refs.filter(r => (!values.get('region') || r.region === values.get('region')) && (r.name + r.region + r.summary + r.categories.join('')).normalize('NFKC').toLowerCase().includes(q));
+        const filtered = refs.filter(r => (!values.get('region') || r.region === values.get('region')) && (r.name + r.region + r.summary + (r.commodities || '') + r.categories.join('')).normalize('NFKC').toLowerCase().includes(q));
         const evaluated = evaluate(request);
         const eligible = evaluated.published.filter(e => filtered.includes(e.ref));
         const unknown = evaluated.unknown.filter(e => filtered.includes(e.ref));
-        document.querySelector('#directory-results').innerHTML = `<div class="results-heading"><h2>公開情報 <span id="reference-count">${eligible.length}件</span></h2><p>登録・提携順や、おすすめ順位ではありません</p></div><div id="reference-list" class="farm-grid">${eligible.length ? eligible.map(e => card(e.ref, e)).join('') : '<div class="empty-results"><h3>条件に関する公開案内が見つかりませんでした。</h3><p>キーワードや用途・品目を変えてお試しください。</p></div>'}</div>${unknown.length ? `<details class="unknown-results"><summary>用途・品目の対応が未確認の情報 <span>${unknown.length}件</span></summary><p>対応できないという意味ではありません。</p><div class="farm-grid">${unknown.map(e => card(e.ref, e)).join('')}</div></details>` : ''}${provenance}`;
+        document.querySelector('#directory-results').innerHTML = `<div class="results-heading"><h2>公開情報 <span id="reference-count">${eligible.length}件</span></h2><p>登録・提携順や、おすすめ順位ではありません</p></div><div id="reference-list" class="farm-grid">${eligible.length ? eligible.slice(0, visible).map(e => card(e.ref, e)).join('') : '<div class="empty-results"><h3>条件に関する公開案内が見つかりませんでした。</h3><p>キーワードや用途・品目を変えてお試しください。</p></div>'}</div>${eligible.length > visible ? `<button id="more-references" class="secondary" type="button">さらに表示（${eligible.length - visible}件）</button>` : ''}${unknown.length ? `<details class="unknown-results"><summary>用途・品目の対応が未確認の情報 <span>${unknown.length}件</span></summary><p>対応できないという意味ではありません。</p><div class="farm-grid">${unknown.map(e => card(e.ref, e)).join('')}</div></details>` : ''}${provenance}`;
         if (replaceURL) {
           const query = new URLSearchParams(); for (const [k, v] of values) if (v) query.set(k, String(v));
           history.replaceState(null, '', '/producers/' + (query.size ? '?' + query : ''));
         }
         bindCards();
+        const more = document.querySelector('#more-references');
+        if (more) more.onclick = () => { visible += 24; run(false, true); document.querySelector('#more-references')?.focus(); };
       };
       form.onsubmit = e => { e.preventDefault(); run(); };
-      form.onchange = () => run();
+      // Typing already updates the list. Replacing it when the search field blurs
+      // removes the result button between pointerdown and click.
+      form.onchange = event => { if (event.target !== form.elements.q) run(); };
       form.elements.q.oninput = () => run();
       document.querySelector('#reset-filters').onclick = () => { form.reset(); run(); };
       run(false);
@@ -259,7 +265,7 @@ window.AgriMatching = {
       const chosen = selectedRefs();
       if (!chosen.length) emptySelection();
       else {
-        main.innerHTML = `<div class="page-shell">${steps(2)}${intro('GET IN TOUCH', '伝えたい希望を、<br>ひとつに。', '相談文を用意して、選んだ生産者の公式窓口へ。')}<div class="inquiry-layout"><section class="inquiry-editor"><div class="editor-heading"><h2>相談文を用意する</h2><a class="text-button" href="/match/">条件を編集する</a></div><label for="brief">必要に応じて、文章を編集できます。</label><textarea id="brief" rows="17" maxlength="6000"></textarea><p class="field-help">氏名・住所・連絡先は移動先の公式窓口で入力してください。</p><div class="inquiry-actions"><button id="copy-brief">相談文をコピー</button><button id="download-brief" class="secondary">テキスト保存</button><button id="save-brief" class="text-button">下書きに保存</button></div><p class="inquiry-notice">この画面から生産者への送信は行いません。下書きも、この端末内だけに保存されます。</p></section><aside class="inquiry-destinations"><h2>公式窓口で相談する</h2><p>相談文をコピーしたら、各公式サイトで相談を進めてください。</p>${chosen.map(r => `<article>${mini(r)}<h3>${esc(r.name)}</h3><p>${esc(r.region)} / ${r.categories.map(esc).join('・')}</p><a class="button" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" data-inquiry="producer-official">公式窓口を開く ${icon('external')}</a><span>外部サイトに移動します</span></article>`).join('')}<a class="text-button" href="/compare/">比較に戻る</a></aside></div></div>`;
+        main.innerHTML = `<div class="page-shell">${steps(2)}${intro('GET IN TOUCH', '伝えたい希望を、<br>ひとつに。', '相談文を用意して、選んだ生産者の公式窓口へ。')}<div class="inquiry-layout"><section class="inquiry-editor"><div class="editor-heading"><h2>相談文を用意する</h2><a class="text-button" href="/match/">条件を編集する</a></div><label for="brief">必要に応じて、文章を編集できます。</label><textarea id="brief" rows="17" maxlength="6000"></textarea><p class="field-help">氏名・住所・連絡先は移動先の公式窓口で入力してください。</p><div class="inquiry-actions"><button id="copy-brief">相談文をコピー</button><button id="download-brief" class="secondary">テキスト保存</button><button id="save-brief" class="text-button">下書きに保存</button></div><p class="inquiry-notice">この画面から生産者への送信は行いません。下書きも、この端末内だけに保存されます。</p></section><aside class="inquiry-destinations"><h2>公式窓口で相談する</h2><p>相談文をコピーしたら、各公式サイトで相談を進めてください。</p>${chosen.map(r => `<article>${mini(r)}<h3>${esc(r.name)}</h3><p>${esc(r.region)}${r.categories.length ? ` / ${r.categories.map(esc).join('・')}` : ''}</p><a class="button" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer" data-inquiry="producer-official">公式窓口を開く ${icon('external')}</a><span>外部サイトに移動します</span></article>`).join('')}<a class="text-button" href="/compare/">比較に戻る</a></aside></div></div>`;
         const area = document.querySelector('#brief'); area.value = core.brief(state.request, chosen);
         document.querySelector('#copy-brief').onclick = async () => {
           try { await navigator.clipboard.writeText(area.value); toast('相談文をコピーしました。公式窓口でご利用ください。'); }

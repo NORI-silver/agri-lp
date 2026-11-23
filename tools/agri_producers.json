@@ -1,0 +1,917 @@
+[
+  {
+    "id": "25",
+    "name": "京都大原 つくだ農園",
+    "region": "京都府",
+    "commodities": "有機野菜",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "29467",
+    "name": "NAKAO FARM",
+    "region": "佐賀県",
+    "commodities": "アスパラガス",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "8",
+    "name": "自然栽培専門店「自然栽培園北村」",
+    "region": "佐賀県",
+    "commodities": "米",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "24682",
+    "name": "AGRiOTA",
+    "region": "兵庫県",
+    "commodities": "米",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "28357",
+    "name": "Veggie",
+    "region": "兵庫県",
+    "commodities": "野菜",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "23397",
+    "name": "とまとや中村阮",
+    "region": "兵庫県",
+    "commodities": "トマト",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20272",
+    "name": "和田農園",
+    "region": "兵庫県",
+    "commodities": "玉ねぎ",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "25104",
+    "name": "銀山博之",
+    "region": "兵庫県",
+    "commodities": "玉ねぎ・レタス・米",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "25370",
+    "name": "とかち河田ファーム",
+    "region": "北海道",
+    "commodities": "野菜・キヌア",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "3078671",
+    "name": "合同会社 柏原農園",
+    "region": "北海道",
+    "commodities": "花",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "28505",
+    "name": "ヤマハン",
+    "region": "千葉県",
+    "commodities": null,
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "25163",
+    "name": "上尚みかん畑",
+    "region": "和歌山県",
+    "commodities": "みかん",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "24297",
+    "name": "上野山翔史(福扇水産)",
+    "region": "和歌山県",
+    "commodities": "しらす",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "23256",
+    "name": "小澤農場",
+    "region": "和歌山県",
+    "commodities": "みかん",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "22777",
+    "name": "木村農園(和歌山県)",
+    "region": "和歌山県",
+    "commodities": "果物",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "3078507",
+    "name": "杉戸いちご農園",
+    "region": "埼玉県",
+    "commodities": "いちご",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "22728",
+    "name": "真心農園",
+    "region": "埼玉県",
+    "commodities": "いちご",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "26579",
+    "name": "青空えむふぁーむ",
+    "region": "埼玉県",
+    "commodities": "いちじく・野菜",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "27958",
+    "name": "やまとファームJapan",
+    "region": "奈良県",
+    "commodities": "キウイ",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "3077607",
+    "name": "BERRY FARM",
+    "region": "宮崎県",
+    "commodities": "有機農産物",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "21725",
+    "name": "てづか農園",
+    "region": "宮崎県",
+    "commodities": "野菜",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "26502",
+    "name": "大野農園",
+    "region": "宮崎県",
+    "commodities": "農産物",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "26755",
+    "name": "星農園",
+    "region": "宮崎県",
+    "commodities": "農産物",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "21261",
+    "name": "聖徳丸",
+    "region": "富山県",
+    "commodities": "天然魚介類",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20000",
+    "name": "マルヘイ農園",
+    "region": "山形県",
+    "commodities": "米",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "26048",
+    "name": "羽柴果樹園",
+    "region": "山形県",
+    "commodities": "果物",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "3078043",
+    "name": "【南アルプス】ベリーファーム",
+    "region": "山梨県",
+    "commodities": "桃・さくらんぼ・すもも・ブルーベリー",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "22366",
+    "name": "きくらげ本舗 三善",
+    "region": "岐阜県",
+    "commodities": "きくらげ",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "28696",
+    "name": "神の使い EGG&HONEY 古代蜜蜂園",
+    "region": "岡山県",
+    "commodities": "はちみつ・卵",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20680",
+    "name": "Mueller's Farm ムラーズファーム",
+    "region": "島根県",
+    "commodities": "有機野菜",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20441",
+    "name": "とびしま農園",
+    "region": "広島県",
+    "commodities": "レモン",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "25606",
+    "name": "新口農園",
+    "region": "愛媛県",
+    "commodities": "柑橘",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "27910",
+    "name": "藤鶴青果",
+    "region": "愛媛県",
+    "commodities": "果物",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "22769",
+    "name": "株式会社 こまがた農園",
+    "region": "新潟県",
+    "commodities": "米",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20383",
+    "name": "那須だんごろ山のましこさん",
+    "region": "栃木県",
+    "commodities": "トマト・葉物",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "29089",
+    "name": "椛島農園",
+    "region": "熊本県",
+    "commodities": "米・卵・野菜",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "29080",
+    "name": "鈴木みかん園",
+    "region": "神奈川県",
+    "commodities": "みかん",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "26116",
+    "name": "(株)田村農場",
+    "region": "福岡県",
+    "commodities": null,
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "22032",
+    "name": "コロコロ梨工房",
+    "region": "福岡県",
+    "commodities": "梨",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20628",
+    "name": "川村菜園",
+    "region": "福岡県",
+    "commodities": "トマト",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "27800",
+    "name": "かがやきいちご園",
+    "region": "群馬県",
+    "commodities": "いちご",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "23185",
+    "name": "やわらぎファーム",
+    "region": "茨城県",
+    "commodities": "ブルーベリー・りんご",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "23355",
+    "name": "七会きのこセンター",
+    "region": "茨城県",
+    "commodities": "きのこ",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "22683",
+    "name": "二川農園",
+    "region": "茨城県",
+    "commodities": "さつまいも・干し芋",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "22955",
+    "name": "市川蓮根",
+    "region": "茨城県",
+    "commodities": "れんこん",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "24207",
+    "name": "常陸農園",
+    "region": "茨城県",
+    "commodities": "干し芋",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "25151",
+    "name": "晴れ晴れファーム",
+    "region": "茨城県",
+    "commodities": "野菜・にんにく・とうもろこし",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "25492",
+    "name": "檜山いちご園",
+    "region": "茨城県",
+    "commodities": "いちご",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "22662",
+    "name": "海老澤栗園",
+    "region": "茨城県",
+    "commodities": "栗",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20660",
+    "name": "SEVEN BOWLs",
+    "region": "長野県",
+    "commodities": null,
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20150",
+    "name": "のらくら農場",
+    "region": "長野県",
+    "commodities": "多品種野菜",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20911",
+    "name": "ハヤシファーム",
+    "region": "長野県",
+    "commodities": "豚肉",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "22325",
+    "name": "信州MIYAFARM",
+    "region": "長野県",
+    "commodities": "卵",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "21528",
+    "name": "安曇野ファミリー農産",
+    "region": "長野県",
+    "commodities": "りんご・果物",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "25666",
+    "name": "(株)のざわりんごえん",
+    "region": "青森県",
+    "commodities": "りんご",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20198",
+    "name": "SKOS合同会社",
+    "region": "青森県",
+    "commodities": "自然栽培野菜",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "23552",
+    "name": "イチヤマジュウ塩越商店",
+    "region": "青森県",
+    "commodities": "ほたて",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "21056",
+    "name": "五代目わさび師『坂ぐち』",
+    "region": "静岡県",
+    "commodities": "わさび",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "23258",
+    "name": "栄ちゃんファーム",
+    "region": "静岡県",
+    "commodities": "トマト",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "20241",
+    "name": "森木農園",
+    "region": "静岡県",
+    "commodities": "いちご・茶・メロン",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "23138",
+    "name": "果樹園 Nishimura",
+    "region": "高知県",
+    "commodities": "ぽんかん",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "23676",
+    "name": "うとさんち",
+    "region": "鹿児島県",
+    "commodities": "とうもろこし・さつまいも",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "21656",
+    "name": "てらすファーム",
+    "region": "鹿児島県",
+    "commodities": "さつまいも",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "26353",
+    "name": "氏家ファーム",
+    "region": "香川県",
+    "commodities": "アスパラガス、トウモロコシ、ブロッコリー",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "3079503",
+    "name": "高山農園",
+    "region": "福井県",
+    "commodities": "米",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "21682",
+    "name": "Peace of Farm",
+    "region": "香川県",
+    "commodities": "季節野菜、漬物、味噌",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "28039",
+    "name": "フジカワ果樹園",
+    "region": "香川県",
+    "commodities": "みかん、しらぬひ、甘夏、レモン",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "27784",
+    "name": "井下とまと園",
+    "region": "香川県",
+    "commodities": "フルーツトマト",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20882",
+    "name": "農家-Sanukifuji",
+    "region": "香川県",
+    "commodities": "アスパラガス",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "23746",
+    "name": "ふつうファーム",
+    "region": "香川県",
+    "commodities": "菊芋、にんにく、レタス、じゃがいも",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "28136",
+    "name": "山本大志郎",
+    "region": "香川県",
+    "commodities": "アスパラガス、ブロッコリー",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "3077301",
+    "name": "TAGATAME〖タガタメ〗",
+    "region": "香川県",
+    "commodities": "野菜、ハーブ、エディブルフラワー",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "27026",
+    "name": "二代目市川農園",
+    "region": "山形県",
+    "commodities": "さくらんぼ、桃、りんご、ラ・フランス、米",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20192",
+    "name": "東御こもだ果樹園",
+    "region": "長野県",
+    "commodities": "ぶどう（巨峰、シャインマスカット等）",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "27095",
+    "name": "阿南農園",
+    "region": "大分県",
+    "commodities": "ミニトマト・なす・スイートコーン",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "28188",
+    "name": "タンポポ農園食べチョク店",
+    "region": "岡山県",
+    "commodities": "ぶどう・ブルーベリー・米",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "29035",
+    "name": "ミサトファーム",
+    "region": "福島県",
+    "commodities": "フルーツトマト",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "26503",
+    "name": "月木農園（つきもくのうえん）",
+    "region": "青森県",
+    "commodities": "ミニトマト",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "26870",
+    "name": "ツジファーム",
+    "region": "山梨県",
+    "commodities": "ぶどう",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "22337",
+    "name": "みずたま農園製茶場",
+    "region": "静岡県",
+    "commodities": "茶",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "24821",
+    "name": "南の果樹園ニュウズ",
+    "region": "愛媛県",
+    "commodities": "みかん・柑橘",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "3078876",
+    "name": "丸六穂高わさび問屋",
+    "region": "長野県",
+    "commodities": "わさび",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "22916",
+    "name": "奈良いちご園",
+    "region": "奈良県",
+    "commodities": "いちご",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "3078052",
+    "name": "横山ファーム",
+    "region": "埼玉県",
+    "commodities": "固定種野菜",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "26913",
+    "name": "石垣島新鮮野菜きまぐれ〜kimagure〜",
+    "region": "沖縄県",
+    "commodities": "パイナップル・マンゴー",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "3079060",
+    "name": "農園紀の国/kinokunifarm",
+    "region": "和歌山県",
+    "commodities": "農産物",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "3079009",
+    "name": "ウエヒラファーム",
+    "region": "奈良県",
+    "commodities": "すいか",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "24981",
+    "name": "村垣農園",
+    "region": "和歌山県",
+    "commodities": "桃",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "25055",
+    "name": "西表ジャングルファーム",
+    "region": "沖縄県",
+    "commodities": "マイヤーレモン・バナナ・パパイヤ",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "24382",
+    "name": "軽井沢いちご工房",
+    "region": "長野県",
+    "commodities": "夏秋いちご",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20771",
+    "name": "白山堂",
+    "region": "石川県",
+    "commodities": "イワナ・ニジマス",
+    "evidence_kind": "listing_record"
+  },
+  {
+    "id": "24149",
+    "name": "鳥好",
+    "region": "和歌山県",
+    "commodities": "地鶏",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "20436",
+    "name": "山和農園",
+    "region": "佐賀県",
+    "commodities": "梨・ぶどう",
+    "evidence_kind": "profile_record"
+  },
+  {
+    "id": "24105",
+    "name": "COCOSATO（ココサト）",
+    "region": "山形県",
+    "commodities": "野菜、山菜、じゅんさい",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "25097",
+    "name": "岩原農園",
+    "region": "岡山県",
+    "commodities": "ぶどう",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "26148",
+    "name": "ファームトピア",
+    "region": "北海道",
+    "commodities": "農作物",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "28452",
+    "name": "折尾茶園",
+    "region": "鹿児島県",
+    "commodities": "知覧茶",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "24882",
+    "name": "長岡ファーム",
+    "region": "山形県",
+    "commodities": "さくらんぼ、りんご、とうもろこし",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "23136",
+    "name": "くらます農園",
+    "region": "鳥取県",
+    "commodities": "梨",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "3079138",
+    "name": "山梨中村屋　中村ブドウ農園",
+    "region": "山梨県",
+    "commodities": "ぶどう",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "20510",
+    "name": "米農家　仁左ェ門",
+    "region": "岩手県",
+    "commodities": "米",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "29326",
+    "name": "乙姫丸&乙姫屋",
+    "region": "熊本県",
+    "commodities": "魚、ウニ、サザエ、ワカメ、ワタリガニ",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "3078382",
+    "name": "トボリファーム",
+    "region": "長野県",
+    "commodities": "ケール",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "22346",
+    "name": "平田花園",
+    "region": "佐賀県",
+    "commodities": "カーネーション、唐辛子",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "24909",
+    "name": "ケーズファーム",
+    "region": "和歌山県",
+    "commodities": "柿",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "21135",
+    "name": "海ぶどう屋さん　富永養殖",
+    "region": "沖縄県",
+    "commodities": "海ぶどう",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "3077806",
+    "name": "花笑み農園",
+    "region": "岡山県",
+    "commodities": "ぶどう",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "23159",
+    "name": "せんい生活 熊本県人吉市",
+    "region": "熊本県",
+    "commodities": "きくらげ、しいたけ",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "28230",
+    "name": "うおぬま小岩農園",
+    "region": "新潟県",
+    "commodities": "米",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "22446",
+    "name": "中村農場",
+    "region": "鹿児島県",
+    "commodities": "甘夏・レモン・ライム",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "3077223",
+    "name": "西谷農園",
+    "region": "鳥取県",
+    "commodities": "梨・米・玉ねぎ",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "26182",
+    "name": "葱や けんもち",
+    "region": "埼玉県",
+    "commodities": "深谷ねぎ",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "22840",
+    "name": "にしぐち農園",
+    "region": "和歌山県",
+    "commodities": "梨・柿・みかん・和牛",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "25387",
+    "name": "三田　忠和",
+    "region": "長野県",
+    "commodities": "ぶどう・キウイフルーツ",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "29333",
+    "name": "さつまゆうすい農場　そのやま農園",
+    "region": "鹿児島県",
+    "commodities": "野菜",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "20817",
+    "name": "伊吹島プロジェクト",
+    "region": "香川県",
+    "commodities": "カタクチイワシ・いりこ",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "3078123",
+    "name": "のどかなナチュラルファーム",
+    "region": "福岡県",
+    "commodities": "季節の野菜・果物・乾燥粉末",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "22251",
+    "name": "松島牡蠣屋",
+    "region": "宮城県",
+    "commodities": "牡蠣、ワタリガニ、イシガニ、マダコ",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "27121",
+    "name": "ほのぼの農園",
+    "region": "愛媛県",
+    "commodities": "米、麦、野菜、とうもろこし",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "3077433",
+    "name": "西果樹園",
+    "region": "和歌山県",
+    "commodities": "みかん、はっさく、レモン、南高梅",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "28741",
+    "name": "伊藤果樹農園",
+    "region": "青森県",
+    "commodities": "りんご",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "23510",
+    "name": "うしろ農園",
+    "region": "兵庫県",
+    "commodities": "トマト、野菜",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "21399",
+    "name": "Farmer‘s Yard",
+    "region": "兵庫県",
+    "commodities": "有機野菜",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "3077711",
+    "name": "どんたけし農園",
+    "region": "熊本県",
+    "commodities": "平飼い卵、野菜",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "28986",
+    "name": "日生かき安本",
+    "region": "岡山県",
+    "commodities": "牡蠣",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  },
+  {
+    "id": "25319",
+    "name": "Farm おとらふ",
+    "region": "山形県",
+    "commodities": "さくらんぼ、ラ・フランス",
+    "evidence_kind": "legacy_profile_record",
+    "source_checked": "2026-11-19～2026-11-21（原本記載）"
+  }
+]
